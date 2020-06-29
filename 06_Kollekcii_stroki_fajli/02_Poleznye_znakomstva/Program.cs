@@ -32,7 +32,7 @@ namespace Poleznye_znakomstva
         {
         }
 
-        //TODO: дописать
+        //TODO: дописать метод
         private static Dictionary<string, List<string>> OptimizeContacts(List<string> contacts)
         {
             var dictionary = new Dictionary<string, List<string>>();

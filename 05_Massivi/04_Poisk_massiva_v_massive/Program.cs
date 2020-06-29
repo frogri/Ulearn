@@ -33,19 +33,19 @@ namespace Poisk_massiva_v_massive
         {
         }
 
-        public static int FindSubarrayStartIndex(int[] array, int[] subArray)
-        {
-            for (var i = 0; i < array.Length - subArray.Length + 1; i++)
-                if (ContainsAtIndex(array, subArray, i))
-                    return i;
-            return -1;
-        }
+        //public static int FindSubarrayStartIndex(int[] array, int[] subArray)
+        //{
+        //    for (var i = 0; i < array.Length - subArray.Length + 1; i++)
+        //        if (ContainsAtIndex(array, subArray, i))
+        //            return i;
+        //    return -1;
+        //}
 
         //TODO: дописать метод
-        public static ContainsAtIndex()
-        {
+        //public static ContainsAtIndex()
+        //{
 
-        }
+        //}
 
     }
 }
