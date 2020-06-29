@@ -1,15 +1,20 @@
-﻿using System;
+﻿//Выведите на консоль фразу The first step!
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ulearn_BasicProgramming1
+namespace Pervyy_shag
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("The first step!");
+
+            Console.ReadKey();
         }
     }
 }
