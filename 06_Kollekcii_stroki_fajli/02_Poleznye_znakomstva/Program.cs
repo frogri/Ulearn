@@ -30,6 +30,26 @@ namespace Poleznye_znakomstva
     {
         static void Main(string[] args)
         {
+            List<string> contacts = new List<string>
+            {
+                "Иван Крылов:ivan1@mail.ru",
+                "Степан Вокс:stepan1@mail.ru",
+                "Дарья Зорина:darja@mail.ru",
+                "Анна Клишина:anna1@mail.ru",
+                "Александр Волков:aleksandr@mail.ru",
+                "Степан Дамин:stepan2@mail.ru",
+                "Иван Семенов:ivan2@mail.ru",
+                "Иван Чирков:ivan3@mail.ru",
+                "Анна Завалишина:anna2@mail.ru",
+                "Анна Кряквоцева:anna3@mail.ru",
+                "Анна Молина:anna4@mail.ru",
+                "a:anna5@mail.ru",
+                ":anna5@mail.ru"
+            };
+
+            OptimizeContacts(contacts);
+
+            Console.ReadKey();
         }
 
         //TODO: дописать метод
@@ -37,8 +57,25 @@ namespace Poleznye_znakomstva
         {
             var dictionary = new Dictionary<string, List<string>>();
 
+            //требуется извлечь первые два символа из имени и поместить их в ключ словаря, а элемент списка будет значением словаря
+            foreach (var contact in contacts)
+            {
+                var nameAndMail = contact.Split(':');
+                string name = nameAndMail[0];
 
+                if (name.Length > 0)
+                {
+                    //извлекаем подстроку из имени в зависимости от длины имени
+                    var key = name.Substring(0, (name.Length == 1) ? 1 : 2);
 
+                    if (!dictionary.ContainsKey(key))
+                        dictionary[key] = new List<string>();
+
+                    dictionary[key].Add(contact);
+                }
+                else
+                    Console.WriteLine($"В строке <{contact}> осутствует имя");
+            }
             return dictionary;
         }
     }
