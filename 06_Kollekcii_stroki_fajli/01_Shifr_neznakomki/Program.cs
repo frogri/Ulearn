@@ -29,7 +29,7 @@ namespace Shifr_neznakomki
     {
         static void Main(string[] args)
         {
-            string[] codedMessage = new string[12]
+            string[] codedMessage = new string[]
             {
                 "решИла нЕ Упрощать и зашифРОВАтЬ Все послаНИЕ",
                 "дАже не Старайся нИЧЕГО у тЕбя нЕ получится с расшифРОВкой",
