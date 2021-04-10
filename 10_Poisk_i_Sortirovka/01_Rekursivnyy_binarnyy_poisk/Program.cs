@@ -20,15 +20,28 @@ namespace _01_Rekursivnyy_binarnyy_poisk
             return BinSearchLeftBorder(arr, value, -1, arr.Length);
         }
 
+        // todo: доделать метод
         public static int BinSearchLeftBorder(long[] array, long value, int left, int right)
         {
             //return -10;
             if (array.Length == 0 || array[0] >= value) return left;
 
-            var m = (left + right) / 2;
-            if (array[m] < value)
-                return BinSearchLeftBorder(array, value, m + 1, right);
-            return BinSearchLeftBorder(array, value, left, m);
+            while (left < right)
+            {
+                var m = (left + right) / 2;
+                if (array[m] < value)
+                    return BinSearchLeftBorder(array, value, m + 1, right - m);
+                return BinSearchLeftBorder(array, value, left, m);
+            }
+
+            if (array[right] == value)
+                return right;
+            return -1;
+
+            //var m = (left + right) / 2;
+            //if (array[m] < value)
+            //    return BinSearchLeftBorder(array, value, m + 1, right);
+            //return BinSearchLeftBorder(array, value, left, m);
 
             //while (left < right)
             //{
