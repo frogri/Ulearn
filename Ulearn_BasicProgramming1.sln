@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Percent", "02_O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_04_Refactoring", "02_Oshibki\Practice_04_Refactoring\Practice_04_Refactoring.csproj", "{B4C13963-E8EC-4B84-87D6-1EF694B3D24A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Rectangles", "03_Vetvlenija\Practice_02_Rectangles\Practice_02_Rectangles.csproj", "{E8B0D136-D22F-4550-A136-BB577FCBEC8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,10 @@ Global
 		{B4C13963-E8EC-4B84-87D6-1EF694B3D24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C13963-E8EC-4B84-87D6-1EF694B3D24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C13963-E8EC-4B84-87D6-1EF694B3D24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -275,6 +281,7 @@ Global
 		{FB91306A-B186-4EDB-A6A5-E8402A7AAF5B} = {617F07BD-1D84-46FC-A3F8-2C2EE1971430}
 		{E4FBBD6B-2509-407B-B827-F750F9D20CB6} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
 		{B4C13963-E8EC-4B84-87D6-1EF694B3D24A} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F} = {B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
