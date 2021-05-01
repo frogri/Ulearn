@@ -3,6 +3,7 @@
 Если подмассив найден в массиве, то вернуть нужно минимальный индекс, 
 с которого начинается подмассив в исходном массиве. 
 Например, поиск подмассива "3,4" в массиве "1,2,3,4,3,4" должен вернуть 2.
+
 Более строго это можно записать, если обозначить массив array, а подмассив subarray: 
 функция должна вернуть такое минимальное k, что array[k+i] == subarray[i] для 
 всех i от 0 до subarray.Length-1.
@@ -13,7 +14,7 @@ ContainsAtIndex:
 
 Ваша задача реализовать метод ContainsAtIndex, который в нем используется.
 
-
+Подсказки:
 Глядя на FindSubarrayStartIndex догадайтесь, каким должен быть метод ContainsAtIndex
 Результат ContainsAtIndex используется внутри if, значит должен возвращать тип bool.
 Тут опять не обойтись без работы с индексами. Поэтому начинайте с цикла for.
@@ -31,21 +32,40 @@ namespace Poisk_massiva_v_massive
     {
         static void Main(string[] args)
         {
+            // ответ = 2
+            Console.WriteLine(FindSubarrayStartIndex(new[] { 1, 2, 3, 4, 3, 4 }, 
+                                                     new[] { 3, 4 }));
+
+            // ответ = 4
+            Console.WriteLine(FindSubarrayStartIndex(new[] { 1, 7, 4, 9, 5, 5, 9, 5, 5 },
+                                                     new[] { 5, 5 }));
+
+            // ответ = -1
+            Console.WriteLine(FindSubarrayStartIndex(new[] { 1, 7, 4, 9, 5, 5, 9, 5, 5 },
+                                                     new[] { 8, 8 }));
+
+            Console.ReadKey();
         }
 
-        //public static int FindSubarrayStartIndex(int[] array, int[] subArray)
-        //{
-        //    for (var i = 0; i < array.Length - subArray.Length + 1; i++)
-        //        if (ContainsAtIndex(array, subArray, i))
-        //            return i;
-        //    return -1;
-        //}
+        public static int FindSubarrayStartIndex(int[] array, int[] subArray)
+        {
+            for (var i = 0; i < array.Length - subArray.Length + 1; i++)
+                if (ContainsAtIndex(array, subArray, i))
+                    return i;
+            return -1;
+        }
 
-        //TODO: дописать метод
-        //public static ContainsAtIndex()
-        //{
+        public static bool ContainsAtIndex(int[] array, int[] subArray, int index)
+        {
+            foreach (var item in subArray)
+            {
+                if (array[index] != item)
+                    return false;
 
-        //}
+                index++;
+            }
 
+            return true;
+        }
     }
 }
