@@ -77,16 +77,21 @@ namespace _08_Krestiki_Noliki
         private static bool HasWinSequence(Mark[,] field, Mark mark)
         {
             Mark[] winCombination = { mark, mark, mark };
-            return CheckHorizontal(field, mark, winCombination) || CheckVertical(field, mark, winCombination) || CheckDiagonal(field, mark, winCombination);
+            return CheckHorizontal(field, mark, winCombination)
+                   || CheckVertical(field, mark, winCombination)
+                   || CheckDiagonal(field, mark, winCombination);
         }
 
         private static bool CheckHorizontal(Mark[,] field, Mark mark, Mark[] winCombination)
         {
-            for (var i = 0; i < field.GetLength(0); i++)
+            var rawLength = field.GetLength(0);
+            var columnLength = field.GetLength(1);
+
+            for (var i = 0; i < rawLength; i++)
             {
                 var raw = new Mark[3];
 
-                for (var j = 0; j < field.GetLength(1); j++)
+                for (var j = 0; j < columnLength; j++)
                     raw[j] = field[i, j];
 
                 if (raw.SequenceEqual(winCombination))
@@ -98,11 +103,14 @@ namespace _08_Krestiki_Noliki
 
         private static bool CheckVertical(Mark[,] field, Mark mark, Mark[] winCombination)
         {
-            for (var i = 0; i < field.GetLength(1); i++)
+            var rawLength = field.GetLength(0);
+            var columnLength = field.GetLength(1);
+
+            for (var i = 0; i < columnLength; i++)
             {
                 var column = new Mark[3];
 
-                for (var j = 0; j < field.GetLength(0); j++)
+                for (var j = 0; j < rawLength; j++)
                     column[j] = field[j, i];
 
                 if (column.SequenceEqual(winCombination))
@@ -114,25 +122,25 @@ namespace _08_Krestiki_Noliki
 
         private static bool CheckDiagonal(Mark[,] field, Mark mark, Mark[] winCombination)
         {
+            var rawLength = field.GetLength(0);
+            var columnLength = field.GetLength(1);
+
             var principalDiagonal = new Mark[3];
             var secondaryDiagonal = new Mark[3];
 
-            for (var i = 0; i < field.GetLength(0); i++)
+            for (var i = 0; i < rawLength; i++)
             {
-                for (var j = 0; j < field.GetLength(1); j++)
+                for (var j = 0; j < columnLength; j++)
                 {
                     if (i == j)
                         principalDiagonal[i] = field[i, j];
 
-                    if (i + j == field.GetLength(0) - 1)
+                    if (i + j == rawLength - 1)
                         secondaryDiagonal[i] = field[i, j];
                 }
             }
 
-            if (principalDiagonal.SequenceEqual(winCombination) || secondaryDiagonal.SequenceEqual(winCombination))
-                return true;
-
-            return false;
+            return principalDiagonal.SequenceEqual(winCombination) || secondaryDiagonal.SequenceEqual(winCombination);
         }
     }
 }

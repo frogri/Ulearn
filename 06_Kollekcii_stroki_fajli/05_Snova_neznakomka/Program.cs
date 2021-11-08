@@ -37,41 +37,32 @@ pop 26
  */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace _03_Snova_neznakomka
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            string[] message = new string[]
+            string[] message =
             {
-                "push Привет! Это снова я! Пока!",
-                "pop 5",
-                "push Как твои успехи? Плохо?",
-                "push qwertyuiop",
-                "push 1234567890",
-                "pop 26"
+                "push Привет! Это снова я! Пока!", "pop 5", "push Как твои успехи? Плохо?", "push qwertyuiop", "push 1234567890", "pop 26"
             };
 
-            //ApplyCommands(message);
             Console.WriteLine(ApplyCommands(message));
             Console.ReadKey();
         }
 
         private static string ApplyCommands(string[] commands)
         {
-            StringBuilder builder = new StringBuilder();
+            var builder = new StringBuilder();
 
             foreach (var messageString in commands)
             {
-                int indexOfWhiteSpace = messageString.IndexOf(' ');
-                string command = messageString.Substring(0, indexOfWhiteSpace);
-                string text = messageString.Substring(indexOfWhiteSpace+1, messageString.Length- (indexOfWhiteSpace+1));
+                var indexOfWhiteSpace = messageString.IndexOf(' ');
+                var command = messageString.Substring(0, indexOfWhiteSpace);
+                var text = messageString.Substring(indexOfWhiteSpace + 1, messageString.Length - (indexOfWhiteSpace + 1));
 
                 switch (command)
                 {
@@ -79,8 +70,8 @@ namespace _03_Snova_neznakomka
                         builder.Append(text);
                         break;
                     case "pop":
-                        int symbolsToRemove = Convert.ToInt32(text);
-                        builder.Remove(builder.Length-symbolsToRemove, symbolsToRemove);
+                        var symbolsToRemove = Convert.ToInt32(text);
+                        builder.Remove(builder.Length - symbolsToRemove, symbolsToRemove);
                         break;
                     default:
                         Console.WriteLine("Команда не определена");
