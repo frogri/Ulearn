@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Krestiki_Noliki", "05_Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Snova_neznakomka", "06_Kollekcii_stroki_fajli\05_Snova_neznakomka\05_Snova_neznakomka.csproj", "{81B1C34F-5428-4B0C-84EC-C025E26D0466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Zakon_Benforda", "06_Kollekcii_stroki_fajli\03_Zakon_Benforda\03_Zakon_Benforda.csproj", "{B9CE791D-E715-41A0-A9D1-98D667E42838}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +267,10 @@ Global
 		{81B1C34F-5428-4B0C-84EC-C025E26D0466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B1C34F-5428-4B0C-84EC-C025E26D0466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B1C34F-5428-4B0C-84EC-C025E26D0466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CE791D-E715-41A0-A9D1-98D667E42838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CE791D-E715-41A0-A9D1-98D667E42838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CE791D-E715-41A0-A9D1-98D667E42838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CE791D-E715-41A0-A9D1-98D667E42838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,6 +316,7 @@ Global
 		{28ACAC4C-F6C4-4C20-8047-84C39E99C3B8} = {BCD902FC-508A-40B0-AC45-B495C961EF48}
 		{1E3B2DC0-3C9F-4FF4-AEE4-EA77A6BB31C8} = {BCD902FC-508A-40B0-AC45-B495C961EF48}
 		{81B1C34F-5428-4B0C-84EC-C025E26D0466} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
+		{B9CE791D-E715-41A0-A9D1-98D667E42838} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
