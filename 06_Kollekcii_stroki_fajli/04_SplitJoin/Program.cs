@@ -28,7 +28,8 @@ namespace _04_SplitJoin
 
         public static string ReplaceIncorrectSeparators(string text)
         {
-            return text.Replace(": ", " ").Replace("; ", " ").Replace("- ", " ").Replace(", ", " ").Replace("  ", " ").Replace(" ", "\t");
+            var separators = new[] { ':', ';', '-', ',', ' ' };
+            return string.Join("\t", text.Split(separators, StringSplitOptions.RemoveEmptyEntries));
         }
     }
 }
