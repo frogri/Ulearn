@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+Напишите метод вычисления расстояния от отрезка до точки.
+Для проверки своего решения запустите скачанный проект.
+Расстоянием от отрезка до точки называется расстояние от ближайшей точки отрезка до точки. 
+Это либо расстояние до точки от прямой, содержащей отрезок, либо расстояние до точки от одного из концов отрезка.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -25,13 +32,13 @@ namespace DistanceTask
         {
             var allCases = OutsideSegment(30).Concat(OnSegment(30)).ToList();
 
-            var angles = new[] {0, Math.PI / 3, Math.PI / 6};
+            var angles = new[] { 0, Math.PI / 3, Math.PI / 6 };
 
 
             var allCombinations =
                 from i in Enumerable.Range(0, 3)
                 from a in angles
-                from shift in new[] {new SizeF(0, 0), new SizeF(50, 20), new SizeF(-20, 10)}
+                from shift in new[] { new SizeF(0, 0), new SizeF(50, 20), new SizeF(-20, 10) }
                 from t in allCases
                 select t.Shift(shift).Rotate(a + i * Math.PI / 2);
             return Dot(30).Concat(allCombinations);
@@ -95,7 +102,7 @@ namespace DistanceTask
 
             ui.Circle(x.X, x.Y, 3, neutralPen);
             ui.Circle(x.X, x.Y, answer,
-                new Pen(actualAnswerPen.Color, 1) {DashStyle = DashStyle.Custom, DashPattern = new float[] {4, 4}});
+                new Pen(actualAnswerPen.Color, 1) { DashStyle = DashStyle.Custom, DashPattern = new float[] { 4, 4 } });
             ui.Log("A = " + a);
             ui.Log("B = " + b);
             ui.Log("X = " + x);
@@ -116,8 +123,8 @@ namespace DistanceTask
 
         private static PointF Rotate(PointF p, double a)
         {
-            return new PointF((float) (Math.Cos(a) * p.X - Math.Sin(a) * p.Y),
-                (float) (Math.Sin(a) * p.X + Math.Cos(a) * p.Y));
+            return new PointF((float)(Math.Cos(a) * p.X - Math.Sin(a) * p.Y),
+                (float)(Math.Sin(a) * p.X + Math.Cos(a) * p.Y));
         }
 
         public DistanceTestRoomTestCase Shift(SizeF shift)
