@@ -9,7 +9,7 @@ namespace DistanceTask
         {
             var distance = double.NaN;
 
-            // скалярные произведения векторов (длины отрезков)
+            // длины отрезков
             var lengthAB = Math.Round(Math.Abs(Math.Sqrt(Math.Pow(ax - bx, 2) + Math.Pow(ay - by, 2))), 3);
             var lengthPA = Math.Round(Math.Abs(Math.Sqrt(Math.Pow(x - ax, 2) + Math.Pow(y - ay, 2))), 3);
             var lengthPB = Math.Round(Math.Abs(Math.Sqrt(Math.Pow(x - bx, 2) + Math.Pow(y - by, 2))), 3);
@@ -24,23 +24,34 @@ namespace DistanceTask
             if (IsDoubleZero(lengthAB))
                 return lengthPA;
 
-            // 3) Если сторона AB является самой длинной стороной треугольника или треугольник равносторонний,
-            // то высота, опущенная из точки P на отрезок AB пересекает отрезок AB.
-            // В этом случае расстоянием от P до отрезка будет равно высоте треугольника,
-            // опущенной из точки P на основание AB.
-            if (lengthAB >= lengthPA && lengthAB >= lengthPB)
-            {
-                var p = (lengthAB + lengthPA + lengthPB) / 2;   // полупериметр
-                distance = (2 / lengthAB) * Math.Sqrt(p * (p - lengthAB) * (p - lengthPA) * (p - lengthPB));
-                return distance;
-            }
+            //// 3) Если сторона AB является самой длинной стороной треугольника или треугольник равносторонний,
+            //// то высота, опущенная из точки P на отрезок AB пересекает отрезок AB.
+            //// В этом случае расстоянием от P до отрезка будет равно высоте треугольника,
+            //// опущенной из точки P на основание AB.
+            //if (lengthAB >= lengthPA && lengthAB >= lengthPB)
+            //{
+            //    var p = (lengthAB + lengthPA + lengthPB) / 2;   // полупериметр
+            //    distance = (2 / lengthAB) * Math.Sqrt(p * (p - lengthAB) * (p - lengthPA) * (p - lengthPB));
+            //    return distance;
+            //}
 
-            // 4) Если сторона AB не является самой длинной стороной треугольника,
-            // то высота, опущенная из точки P на отрезок AB не будет пересекать отрезок AB.
-            // Либо этот треугольник является прямоугольным, где АВ - один из катетов.
-            // В этом случае расстоянием до отрезка АВ будет кратчайшая из сторон РА или РВ.
-            if (lengthAB <= lengthPA || lengthAB <= lengthPB)
-                return lengthPA < lengthPB ? lengthPA : lengthPB;
+            //// 4) Если сторона AB не является самой длинной стороной треугольника,
+            //// то высота, опущенная из точки P на отрезок AB не будет пересекать отрезок AB.
+            //// Либо этот треугольник является прямоугольным, где АВ - один из катетов.
+            //// В этом случае расстоянием до отрезка АВ будет кратчайшая из сторон РА или РВ.
+            //if (lengthAB <= lengthPA || lengthAB <= lengthPB)
+            //    return lengthPA < lengthPB ? lengthPA : lengthPB;
+
+
+
+            // в итоге помог способ со скалярным произведением вектора.
+            // Если оно отрицательное, значит высота не падает на основание и расстоянием будет являться
+            // минимальное расстояние от точки до концов отрезка, удачи)
+
+
+
+
+
 
             return distance;
         }
