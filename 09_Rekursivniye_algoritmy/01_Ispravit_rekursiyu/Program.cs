@@ -1,4 +1,4 @@
-﻿/*
+/*
 Вася решил, что изучать рекурсию нужно на простых примерах и начал c программы, 
 печатающей все элементы массива в обратном порядке.
 
@@ -12,42 +12,39 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01_Ispravit_rekursiyu
 {
-    class Program
+    internal class Program
     {
         public static void WriteReversed(char[] items, int startIndex = 0)
         {
+            if (items.Length <= 0)
+                return;
+            
             // Выводим в обратном порядке все элементы с индексом больше startIndex
-            if (items.Length > 0)
-            {
-                if (startIndex + 1 < items.Length)
-                    WriteReversed(items, startIndex + 1);
-                // а потом выводим сам элемент startIndex
-                Console.Write(items[startIndex]);
-            }
+            if (startIndex + 1 < items.Length)
+                WriteReversed(items, startIndex + 1);
+
+            // а потом выводим сам элемент startIndex
+            Console.Write(items[startIndex]);
         }
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            WriteReversed(new char[] { '1', '2', '3' });
+            WriteReversed(new[] { '1', '2', '3' });
             Console.WriteLine();
-            WriteReversed(new char[] { '1', '2' });
+            WriteReversed(new[] { '1', '2' });
             Console.WriteLine();
-            WriteReversed(new char[] { '1' });
+            WriteReversed(new[] { '1' });
             Console.WriteLine();
             WriteReversed(new char[] { });
             Console.WriteLine();
-            WriteReversed(new char[] { '1', '1', '2', '2', '3', '3' });
+            WriteReversed(new[] { '1', '1', '2', '2', '3', '3' });
             Console.WriteLine();
-            WriteReversed(new char[] { '1', '2', '3', '4' });
+            WriteReversed(new[] { '1', '2', '3', '4' });
             Console.WriteLine();
-            WriteReversed(new char[] { 'a', 'b', 'c', 'd' });
+            WriteReversed(new[] { 'a', 'b', 'c', 'd' });
 
             Console.ReadKey();
         }
