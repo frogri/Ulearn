@@ -111,6 +111,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_Osnovy_OOP", "12_Osnovy_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Sozdanije_klassov", "12_Osnovy_OOP\01_Sozdanije_klassov\01_Sozdanije_klassov.csproj", "{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sokrashchennyj_sintaksis", "12_Osnovy_OOP\02_Sokrashchennyj_sintaksis\02_Sokrashchennyj_sintaksis.csproj", "{46331521-E915-4A9C-95DD-3148240E1AA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46331521-E915-4A9C-95DD-3148240E1AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46331521-E915-4A9C-95DD-3148240E1AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46331521-E915-4A9C-95DD-3148240E1AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46331521-E915-4A9C-95DD-3148240E1AA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -346,6 +352,7 @@ Global
 		{7066E4CF-88C3-4C97-A1AF-16F8CF5A4CA4} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
 		{E7F5D985-677D-4246-BA75-4BAE24DF38B5} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
 		{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
+		{46331521-E915-4A9C-95DD-3148240E1AA7} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
