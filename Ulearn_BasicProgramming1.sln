@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sokrashchennyj_sintaksis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Sozdanie_metodov_rasshireniya", "12_Osnovy_OOP\03_Sozdanie_metodov_rasshireniya\03_Sozdanie_metodov_rasshireniya.csproj", "{DFD8F69E-4888-4E96-AC59-8466428CB8D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Spisok_direktorij", "12_Osnovy_OOP\04_Spisok_direktorij\04_Spisok_direktorij.csproj", "{FC10DE79-BF34-4475-B48C-2408D75947ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{DFD8F69E-4888-4E96-AC59-8466428CB8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD8F69E-4888-4E96-AC59-8466428CB8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD8F69E-4888-4E96-AC59-8466428CB8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC10DE79-BF34-4475-B48C-2408D75947ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC10DE79-BF34-4475-B48C-2408D75947ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC10DE79-BF34-4475-B48C-2408D75947ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC10DE79-BF34-4475-B48C-2408D75947ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,6 +366,7 @@ Global
 		{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{46331521-E915-4A9C-95DD-3148240E1AA7} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{DFD8F69E-4888-4E96-AC59-8466428CB8D7} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
+		{FC10DE79-BF34-4475-B48C-2408D75947ED} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
