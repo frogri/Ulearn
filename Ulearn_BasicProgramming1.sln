@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Pervoe_znakomstvo_s_C_Sharp", "01_Pervoe_znakomstvo_s_C_Sharp", "{0E589B36-99C3-4596-971C-23960866C34F}"
 EndProject
@@ -112,6 +112,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Sozdanije_klassov", "12_Osnovy_OOP\01_Sozdanije_klassov\01_Sozdanije_klassov.csproj", "{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sokrashchennyj_sintaksis", "12_Osnovy_OOP\02_Sokrashchennyj_sintaksis\02_Sokrashchennyj_sintaksis.csproj", "{46331521-E915-4A9C-95DD-3148240E1AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Sozdanie_metodov_rasshireniya", "12_Osnovy_OOP\03_Sozdanie_metodov_rasshireniya\03_Sozdanie_metodov_rasshireniya.csproj", "{DFD8F69E-4888-4E96-AC59-8466428CB8D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{46331521-E915-4A9C-95DD-3148240E1AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46331521-E915-4A9C-95DD-3148240E1AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46331521-E915-4A9C-95DD-3148240E1AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD8F69E-4888-4E96-AC59-8466428CB8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD8F69E-4888-4E96-AC59-8466428CB8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD8F69E-4888-4E96-AC59-8466428CB8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD8F69E-4888-4E96-AC59-8466428CB8D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -353,6 +359,7 @@ Global
 		{E7F5D985-677D-4246-BA75-4BAE24DF38B5} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
 		{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{46331521-E915-4A9C-95DD-3148240E1AA7} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
+		{DFD8F69E-4888-4E96-AC59-8466428CB8D7} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
