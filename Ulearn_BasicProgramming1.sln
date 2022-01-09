@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Vektor", "12_Os
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Otrezok", "12_Osnovy_OOP\Practice_02_Otrezok\Practice_02_Otrezok.csproj", "{0D41A7FF-27F2-4E4E-8A89-741B236F25BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Nestaticheskie_metody", "12_Osnovy_OOP\Practice_03_Nestaticheskie_metody\Practice_03_Nestaticheskie_metody.csproj", "{37FC3879-3C40-4450-BF53-832412975B2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{0D41A7FF-27F2-4E4E-8A89-741B236F25BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D41A7FF-27F2-4E4E-8A89-741B236F25BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D41A7FF-27F2-4E4E-8A89-741B236F25BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FC3879-3C40-4450-BF53-832412975B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FC3879-3C40-4450-BF53-832412975B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FC3879-3C40-4450-BF53-832412975B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FC3879-3C40-4450-BF53-832412975B2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -388,6 +394,7 @@ Global
 		{0A1D15FF-2392-4B43-B01D-B030E799B1C8} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{32D76AAE-B418-4912-AD2E-3885B642BE1D} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{0D41A7FF-27F2-4E4E-8A89-741B236F25BA} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
+		{37FC3879-3C40-4450-BF53-832412975B2D} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
