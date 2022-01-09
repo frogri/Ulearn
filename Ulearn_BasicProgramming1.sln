@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Spisok_direktorij", "12_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Refaktoring_staticheskogo_klassa", "12_Osnovy_OOP\05_Refaktoring_staticheskogo_klassa\05_Refaktoring_staticheskogo_klassa.csproj", "{0A1D15FF-2392-4B43-B01D-B030E799B1C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Vektor", "12_Osnovy_OOP\Practice_01_Vektor\Practice_01_Vektor.csproj", "{32D76AAE-B418-4912-AD2E-3885B642BE1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +323,10 @@ Global
 		{0A1D15FF-2392-4B43-B01D-B030E799B1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A1D15FF-2392-4B43-B01D-B030E799B1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A1D15FF-2392-4B43-B01D-B030E799B1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D76AAE-B418-4912-AD2E-3885B642BE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D76AAE-B418-4912-AD2E-3885B642BE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D76AAE-B418-4912-AD2E-3885B642BE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D76AAE-B418-4912-AD2E-3885B642BE1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -374,6 +380,7 @@ Global
 		{DFD8F69E-4888-4E96-AC59-8466428CB8D7} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{FC10DE79-BF34-4475-B48C-2408D75947ED} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{0A1D15FF-2392-4B43-B01D-B030E799B1C8} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
+		{32D76AAE-B418-4912-AD2E-3885B642BE1D} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
