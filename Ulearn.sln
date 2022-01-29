@@ -1,131 +1,139 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Pervoe_znakomstvo_s_C_Sharp", "01_Pervoe_znakomstvo_s_C_Sharp", "{0E589B36-99C3-4596-971C-23960866C34F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Pervoe_znakomstvo_s_C_Sharp", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp", "{0E589B36-99C3-4596-971C-23960866C34F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Pervyy_shag", "01_Pervoe_znakomstvo_s_C_Sharp\01_Pervyy_shag\01_Pervyy_shag.csproj", "{0390253D-18DF-41A2-BE80-108F3E22CC14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Pervyy_shag", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\01_Pervyy_shag\01_Pervyy_shag.csproj", "{0390253D-18DF-41A2-BE80-108F3E22CC14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Nevernyy_tip_dannykh", "01_Pervoe_znakomstvo_s_C_Sharp\02_Nevernyy_tip_dannykh\02_Nevernyy_tip_dannykh.csproj", "{D2CA7408-DE2C-43AF-81C4-7E488DAB3E97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Nevernyy_tip_dannykh", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\02_Nevernyy_tip_dannykh\02_Nevernyy_tip_dannykh.csproj", "{D2CA7408-DE2C-43AF-81C4-7E488DAB3E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Oshibki_preobrazovaniya_tipov", "01_Pervoe_znakomstvo_s_C_Sharp\03_Oshibki_preobrazovaniya_tipov\03_Oshibki_preobrazovaniya_tipov.csproj", "{EFF30B23-EC79-4AA0-8C00-15811427969A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Oshibki_preobrazovaniya_tipov", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\03_Oshibki_preobrazovaniya_tipov\03_Oshibki_preobrazovaniya_tipov.csproj", "{EFF30B23-EC79-4AA0-8C00-15811427969A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Bitkoiny_v_massy", "01_Pervoe_znakomstvo_s_C_Sharp\04_Bitkoiny_v_massy\04_Bitkoiny_v_massy.csproj", "{E53E9EDD-4596-4937-B1EB-2F49BA2A826B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Bitkoiny_v_massy", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\04_Bitkoiny_v_massy\04_Bitkoiny_v_massy.csproj", "{E53E9EDD-4596-4937-B1EB-2F49BA2A826B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Preobrazovanie_stroki_v_chislo", "01_Pervoe_znakomstvo_s_C_Sharp\05_Preobrazovanie_stroki_v_chislo\05_Preobrazovanie_stroki_v_chislo.csproj", "{CA56CEC0-71FA-4F63-9E76-8A06C064B2C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Preobrazovanie_stroki_v_chislo", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\05_Preobrazovanie_stroki_v_chislo\05_Preobrazovanie_stroki_v_chislo.csproj", "{CA56CEC0-71FA-4F63-9E76-8A06C064B2C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Ispolzovanie_var", "01_Pervoe_znakomstvo_s_C_Sharp\06_Ispolzovanie_var\06_Ispolzovanie_var.csproj", "{6FEAA2B0-10F5-46CE-8CC7-2F2C9C9E0F6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Ispolzovanie_var", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\06_Ispolzovanie_var\06_Ispolzovanie_var.csproj", "{6FEAA2B0-10F5-46CE-8CC7-2F2C9C9E0F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Razyskivayutsya_metody", "01_Pervoe_znakomstvo_s_C_Sharp\09_Razyskivayutsya_metody\09_Razyskivayutsya_metody.csproj", "{2A571124-274E-495D-A006-4752B26BB63F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Razyskivayutsya_metody", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\09_Razyskivayutsya_metody\09_Razyskivayutsya_metody.csproj", "{2A571124-274E-495D-A006-4752B26BB63F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Dobryy_rabotodatel", "01_Pervoe_znakomstvo_s_C_Sharp\07_Dobryy_rabotodatel\07_Dobryy_rabotodatel.csproj", "{0015F5FA-6115-4A1A-AE49-C9AABE6AC15E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Dobryy_rabotodatel", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\07_Dobryy_rabotodatel\07_Dobryy_rabotodatel.csproj", "{0015F5FA-6115-4A1A-AE49-C9AABE6AC15E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Glavnyy_vopros_Vselennoy", "01_Pervoe_znakomstvo_s_C_Sharp\08_Glavnyy_vopros_Vselennoy\08_Glavnyy_vopros_Vselennoy.csproj", "{B2551247-7E7B-41B6-9D72-B1EA9386CDEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Glavnyy_vopros_Vselennoy", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\08_Glavnyy_vopros_Vselennoy\08_Glavnyy_vopros_Vselennoy.csproj", "{B2551247-7E7B-41B6-9D72-B1EA9386CDEB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Oshibki", "02_Oshibki", "{5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Oshibki", "BasicProgramming1\02_Oshibki", "{5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ochepyatki", "02_Oshibki\01_Ochepyatki\01_Ochepyatki.csproj", "{A4F34EFB-94B3-4827-9828-33C3328F96A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ochepyatki", "BasicProgramming1\02_Oshibki\01_Ochepyatki\01_Ochepyatki.csproj", "{A4F34EFB-94B3-4827-9828-33C3328F96A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Minimum_funktsii", "02_Oshibki\02_Minimum_funktsii\02_Minimum_funktsii.csproj", "{DCFB2248-4DA8-4EFC-B57B-E44226889FBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Minimum_funktsii", "BasicProgramming1\02_Oshibki\02_Minimum_funktsii\02_Minimum_funktsii.csproj", "{DCFB2248-4DA8-4EFC-B57B-E44226889FBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Sdelay_to_ne_znayu_chto", "02_Oshibki\03_Sdelay_to_ne_znayu_chto\03_Sdelay_to_ne_znayu_chto.csproj", "{3E9A3282-5D27-4974-B4D8-EACDD0BB972E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Sdelay_to_ne_znayu_chto", "BasicProgramming1\02_Oshibki\03_Sdelay_to_ne_znayu_chto\03_Sdelay_to_ne_znayu_chto.csproj", "{3E9A3282-5D27-4974-B4D8-EACDD0BB972E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_AngryBirds", "02_Oshibki\Practice_01_AngryBirds\Practice_01_AngryBirds.csproj", "{23B9004E-6038-4127-8AD4-500EAAAF63C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_AngryBirds", "BasicProgramming1\02_Oshibki\Practice_01_AngryBirds\Practice_01_AngryBirds.csproj", "{23B9004E-6038-4127-8AD4-500EAAAF63C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Billiards", "02_Oshibki\Practice_02_Billiards\Practice_02_Billiards.csproj", "{5A59E50B-7340-49BC-8398-6F82C86F99D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Billiards", "BasicProgramming1\02_Oshibki\Practice_02_Billiards\Practice_02_Billiards.csproj", "{5A59E50B-7340-49BC-8398-6F82C86F99D9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Vetvlenija", "03_Vetvlenija", "{B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Vetvlenija", "BasicProgramming1\03_Vetvlenija", "{B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Visokosnyy_god", "03_Vetvlenija\01_Visokosnyy_god\01_Visokosnyy_god.csproj", "{B4A89BF3-2527-4FD5-A978-CB786D824CAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Visokosnyy_god", "BasicProgramming1\03_Vetvlenija\01_Visokosnyy_god\01_Visokosnyy_god.csproj", "{B4A89BF3-2527-4FD5-A978-CB786D824CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Khod_ferzya", "03_Vetvlenija\02_Khod_ferzya\02_Khod_ferzya.csproj", "{83C1B1C1-13DC-49D3-8E2E-441272B38622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Khod_ferzya", "BasicProgramming1\03_Vetvlenija\02_Khod_ferzya\02_Khod_ferzya.csproj", "{83C1B1C1-13DC-49D3-8E2E-441272B38622}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Srednee_trekh", "03_Vetvlenija\03_Srednee_trekh\03_Srednee_trekh.csproj", "{B2E60AD8-4139-4C69-AD6A-935B9673678E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Srednee_trekh", "BasicProgramming1\03_Vetvlenija\03_Srednee_trekh\03_Srednee_trekh.csproj", "{B2E60AD8-4139-4C69-AD6A-935B9673678E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Cycli", "04_Cycli", "{54910455-102C-4B65-96C4-5ECFB1E661DA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Cycli", "BasicProgramming1\04_Cycli", "{54910455-102C-4B65-96C4-5ECFB1E661DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_V_poiskakh_stepeni_dvoyki", "04_Cycli\01_V_poiskakh_stepeni_dvoyki\01_V_poiskakh_stepeni_dvoyki.csproj", "{FAEE9DED-2A72-490C-9A51-9FAA0273958A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_V_poiskakh_stepeni_dvoyki", "BasicProgramming1\04_Cycli\01_V_poiskakh_stepeni_dvoyki\01_V_poiskakh_stepeni_dvoyki.csproj", "{FAEE9DED-2A72-490C-9A51-9FAA0273958A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Ubrat_probely", "04_Cycli\02_Ubrat_probely\02_Ubrat_probely.csproj", "{8BDB0708-2233-40EE-A9CB-F899AF64C062}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Ubrat_probely", "BasicProgramming1\04_Cycli\02_Ubrat_probely\02_Ubrat_probely.csproj", "{8BDB0708-2233-40EE-A9CB-F899AF64C062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Ramochka", "04_Cycli\03_Ramochka\03_Ramochka.csproj", "{C26194EF-DB3D-44D1-821F-99B6C7898AE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Ramochka", "BasicProgramming1\04_Cycli\03_Ramochka\03_Ramochka.csproj", "{C26194EF-DB3D-44D1-821F-99B6C7898AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Shakhmatnaya_doska", "04_Cycli\04_Shakhmatnaya_doska\04_Shakhmatnaya_doska.csproj", "{5A6EF116-A0CE-49C5-9368-9268712EB321}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Shakhmatnaya_doska", "BasicProgramming1\04_Cycli\04_Shakhmatnaya_doska\04_Shakhmatnaya_doska.csproj", "{5A6EF116-A0CE-49C5-9368-9268712EB321}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Massivi", "05_Massivi", "{BCD902FC-508A-40B0-AC45-B495C961EF48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Massivi", "BasicProgramming1\05_Massivi", "{BCD902FC-508A-40B0-AC45-B495C961EF48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Chetnyy_massiv", "05_Massivi\01_Chetnyy_massiv\01_Chetnyy_massiv.csproj", "{8C9F0CF6-948E-45EF-AB3B-80BFE249E76B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Chetnyy_massiv", "BasicProgramming1\05_Massivi\01_Chetnyy_massiv\01_Chetnyy_massiv.csproj", "{8C9F0CF6-948E-45EF-AB3B-80BFE249E76B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Indeks_maksimuma", "05_Massivi\02_Indeks_maksimuma\02_Indeks_maksimuma.csproj", "{0D34A55E-CF97-40FA-B5E8-9EA9EEE2E01D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Indeks_maksimuma", "BasicProgramming1\05_Massivi\02_Indeks_maksimuma\02_Indeks_maksimuma.csproj", "{0D34A55E-CF97-40FA-B5E8-9EA9EEE2E01D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Podschet", "05_Massivi\03_Podschet\03_Podschet.csproj", "{B2467F90-0819-4750-B862-647439087EF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Podschet", "BasicProgramming1\05_Massivi\03_Podschet\03_Podschet.csproj", "{B2467F90-0819-4750-B862-647439087EF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Poisk_massiva_v_massive", "05_Massivi\04_Poisk_massiva_v_massive\04_Poisk_massiva_v_massive.csproj", "{D64364AB-53AF-47A9-87E3-29778B94FEC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Poisk_massiva_v_massive", "BasicProgramming1\05_Massivi\04_Poisk_massiva_v_massive\04_Poisk_massiva_v_massive.csproj", "{D64364AB-53AF-47A9-87E3-29778B94FEC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Karty_Taro", "05_Massivi\05_Karty_Taro\05_Karty_Taro.csproj", "{7DF41C97-D110-4223-BA11-E456287298D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Karty_Taro", "BasicProgramming1\05_Massivi\05_Karty_Taro\05_Karty_Taro.csproj", "{7DF41C97-D110-4223-BA11-E456287298D2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Kollekcii_stroki_fajli", "06_Kollekcii_stroki_fajli", "{71A05806-6C21-45F5-BE7A-28ABAAE64261}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Kollekcii_stroki_fajli", "BasicProgramming1\06_Kollekcii_stroki_fajli", "{71A05806-6C21-45F5-BE7A-28ABAAE64261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Shifr_neznakomki", "06_Kollekcii_stroki_fajli\01_Shifr_neznakomki\01_Shifr_neznakomki.csproj", "{1BA691BA-A2BC-4299-90DD-D385411FB0D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Shifr_neznakomki", "BasicProgramming1\06_Kollekcii_stroki_fajli\01_Shifr_neznakomki\01_Shifr_neznakomki.csproj", "{1BA691BA-A2BC-4299-90DD-D385411FB0D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Poleznye_znakomstva", "06_Kollekcii_stroki_fajli\02_Poleznye_znakomstva\02_Poleznye_znakomstva.csproj", "{5790559B-A762-469B-942E-FE1DCD438742}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Poleznye_znakomstva", "BasicProgramming1\06_Kollekcii_stroki_fajli\02_Poleznye_znakomstva\02_Poleznye_znakomstva.csproj", "{5790559B-A762-469B-942E-FE1DCD438742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Upravlenie_robotom", "03_Vetvlenija\04_Upravlenie_robotom\04_Upravlenie_robotom.csproj", "{B72B0058-5D23-463B-A5C0-D8E40F664597}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Upravlenie_robotom", "BasicProgramming1\03_Vetvlenija\04_Upravlenie_robotom\04_Upravlenie_robotom.csproj", "{B72B0058-5D23-463B-A5C0-D8E40F664597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Pluralize", "03_Vetvlenija\Practice_01_Pluralize\Practice_01_Pluralize.csproj", "{105ABC87-92A4-42BA-8B34-5232D8A1FDC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Pluralize", "BasicProgramming1\03_Vetvlenija\Practice_01_Pluralize\Practice_01_Pluralize.csproj", "{105ABC87-92A4-42BA-8B34-5232D8A1FDC8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_Rekursivniye_algoritmy", "09_Rekursivniye_algoritmy", "{8A584060-E3E3-4A20-9D8C-04D77D269653}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_Rekursivniye_algoritmy", "BasicProgramming1\09_Rekursivniye_algoritmy", "{8A584060-E3E3-4A20-9D8C-04D77D269653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ispravit_rekursiyu", "09_Rekursivniye_algoritmy\01_Ispravit_rekursiyu\01_Ispravit_rekursiyu.csproj", "{E0B72A96-88CD-4073-80D7-9816ABE4FB08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ispravit_rekursiyu", "BasicProgramming1\09_Rekursivniye_algoritmy\01_Ispravit_rekursiyu\01_Ispravit_rekursiyu.csproj", "{E0B72A96-88CD-4073-80D7-9816ABE4FB08}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_Poisk_i_Sortirovka", "10_Poisk_i_Sortirovka", "{617F07BD-1D84-46FC-A3F8-2C2EE1971430}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_Poisk_i_Sortirovka", "BasicProgramming1\10_Poisk_i_Sortirovka", "{617F07BD-1D84-46FC-A3F8-2C2EE1971430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Rekursivnyy_binarnyy_poisk", "10_Poisk_i_Sortirovka\01_Rekursivnyy_binarnyy_poisk\01_Rekursivnyy_binarnyy_poisk.csproj", "{FB91306A-B186-4EDB-A6A5-E8402A7AAF5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Rekursivnyy_binarnyy_poisk", "BasicProgramming1\10_Poisk_i_Sortirovka\01_Rekursivnyy_binarnyy_poisk\01_Rekursivnyy_binarnyy_poisk.csproj", "{FB91306A-B186-4EDB-A6A5-E8402A7AAF5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Percent", "02_Oshibki\Practice_03_Percent\Practice_03_Percent.csproj", "{E4FBBD6B-2509-407B-B827-F750F9D20CB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Percent", "BasicProgramming1\02_Oshibki\Practice_03_Percent\Practice_03_Percent.csproj", "{E4FBBD6B-2509-407B-B827-F750F9D20CB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_04_Refactoring", "02_Oshibki\Practice_04_Refactoring\Practice_04_Refactoring.csproj", "{B4C13963-E8EC-4B84-87D6-1EF694B3D24A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_04_Refactoring", "BasicProgramming1\02_Oshibki\Practice_04_Refactoring\Practice_04_Refactoring.csproj", "{B4C13963-E8EC-4B84-87D6-1EF694B3D24A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Rectangles", "03_Vetvlenija\Practice_02_Rectangles\Practice_02_Rectangles.csproj", "{E8B0D136-D22F-4550-A136-BB577FCBEC8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Rectangles", "BasicProgramming1\03_Vetvlenija\Practice_02_Rectangles\Practice_02_Rectangles.csproj", "{E8B0D136-D22F-4550-A136-BB577FCBEC8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Distance", "03_Vetvlenija\Practice_03_Distance\Practice_03_Distance.csproj", "{A7607F62-2517-4779-84D4-3D378809A97E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Distance", "BasicProgramming1\03_Vetvlenija\Practice_03_Distance\Practice_03_Distance.csproj", "{A7607F62-2517-4779-84D4-3D378809A97E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Null_ili_ne_Null", "05_Massivi\06_Null_ili_ne_Null\06_Null_ili_ne_Null.csproj", "{872528DF-0EC3-442E-8C93-D2D27593113A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Null_ili_ne_Null", "BasicProgramming1\05_Massivi\06_Null_ili_ne_Null\06_Null_ili_ne_Null.csproj", "{872528DF-0EC3-442E-8C93-D2D27593113A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Vozvesti_massiv_v_stepenj", "05_Massivi\07_Vozvesti_massiv_v_stepenj\07_Vozvesti_massiv_v_stepenj.csproj", "{28ACAC4C-F6C4-4C20-8047-84C39E99C3B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Vozvesti_massiv_v_stepenj", "BasicProgramming1\05_Massivi\07_Vozvesti_massiv_v_stepenj\07_Vozvesti_massiv_v_stepenj.csproj", "{28ACAC4C-F6C4-4C20-8047-84C39E99C3B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Krestiki_Noliki", "05_Massivi\08_Krestiki_Noliki\08_Krestiki_Noliki.csproj", "{1E3B2DC0-3C9F-4FF4-AEE4-EA77A6BB31C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Krestiki_Noliki", "BasicProgramming1\05_Massivi\08_Krestiki_Noliki\08_Krestiki_Noliki.csproj", "{1E3B2DC0-3C9F-4FF4-AEE4-EA77A6BB31C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Snova_neznakomka", "06_Kollekcii_stroki_fajli\05_Snova_neznakomka\05_Snova_neznakomka.csproj", "{81B1C34F-5428-4B0C-84EC-C025E26D0466}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Snova_neznakomka", "BasicProgramming1\06_Kollekcii_stroki_fajli\05_Snova_neznakomka\05_Snova_neznakomka.csproj", "{81B1C34F-5428-4B0C-84EC-C025E26D0466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Zakon_Benforda", "06_Kollekcii_stroki_fajli\03_Zakon_Benforda\03_Zakon_Benforda.csproj", "{B9CE791D-E715-41A0-A9D1-98D667E42838}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Zakon_Benforda", "BasicProgramming1\06_Kollekcii_stroki_fajli\03_Zakon_Benforda\03_Zakon_Benforda.csproj", "{B9CE791D-E715-41A0-A9D1-98D667E42838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SplitJoin", "06_Kollekcii_stroki_fajli\04_SplitJoin\04_SplitJoin.csproj", "{7066E4CF-88C3-4C97-A1AF-16F8CF5A4CA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SplitJoin", "BasicProgramming1\06_Kollekcii_stroki_fajli\04_SplitJoin\04_SplitJoin.csproj", "{7066E4CF-88C3-4C97-A1AF-16F8CF5A4CA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Parser_Predlozhenij", "06_Kollekcii_stroki_fajli\Practice_01_Parser_Predlozhenij\Practice_01_Parser_Predlozhenij.csproj", "{E7F5D985-677D-4246-BA75-4BAE24DF38B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Parser_Predlozhenij", "BasicProgramming1\06_Kollekcii_stroki_fajli\Practice_01_Parser_Predlozhenij\Practice_01_Parser_Predlozhenij.csproj", "{E7F5D985-677D-4246-BA75-4BAE24DF38B5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B327E15A-9FF6-4746-A8D3-FB160A944A05}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_Osnovy_OOP", "12_Osnovy_OOP", "{CB3C79C0-722B-4D97-AD93-807F553B05A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_Osnovy_OOP", "BasicProgramming1\12_Osnovy_OOP", "{CB3C79C0-722B-4D97-AD93-807F553B05A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Sozdanije_klassov", "12_Osnovy_OOP\01_Sozdanije_klassov\01_Sozdanije_klassov.csproj", "{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Sozdanije_klassov", "BasicProgramming1\12_Osnovy_OOP\01_Sozdanije_klassov\01_Sozdanije_klassov.csproj", "{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sokrashchennyj_sintaksis", "12_Osnovy_OOP\02_Sokrashchennyj_sintaksis\02_Sokrashchennyj_sintaksis.csproj", "{46331521-E915-4A9C-95DD-3148240E1AA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sokrashchennyj_sintaksis", "BasicProgramming1\12_Osnovy_OOP\02_Sokrashchennyj_sintaksis\02_Sokrashchennyj_sintaksis.csproj", "{46331521-E915-4A9C-95DD-3148240E1AA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Sozdanie_metodov_rasshireniya", "12_Osnovy_OOP\03_Sozdanie_metodov_rasshireniya\03_Sozdanie_metodov_rasshireniya.csproj", "{DFD8F69E-4888-4E96-AC59-8466428CB8D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Sozdanie_metodov_rasshireniya", "BasicProgramming1\12_Osnovy_OOP\03_Sozdanie_metodov_rasshireniya\03_Sozdanie_metodov_rasshireniya.csproj", "{DFD8F69E-4888-4E96-AC59-8466428CB8D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Spisok_direktorij", "12_Osnovy_OOP\04_Spisok_direktorij\04_Spisok_direktorij.csproj", "{FC10DE79-BF34-4475-B48C-2408D75947ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Spisok_direktorij", "BasicProgramming1\12_Osnovy_OOP\04_Spisok_direktorij\04_Spisok_direktorij.csproj", "{FC10DE79-BF34-4475-B48C-2408D75947ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Refaktoring_staticheskogo_klassa", "12_Osnovy_OOP\05_Refaktoring_staticheskogo_klassa\05_Refaktoring_staticheskogo_klassa.csproj", "{0A1D15FF-2392-4B43-B01D-B030E799B1C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Refaktoring_staticheskogo_klassa", "BasicProgramming1\12_Osnovy_OOP\05_Refaktoring_staticheskogo_klassa\05_Refaktoring_staticheskogo_klassa.csproj", "{0A1D15FF-2392-4B43-B01D-B030E799B1C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Vektor", "12_Osnovy_OOP\Practice_01_Vektor\Practice_01_Vektor.csproj", "{32D76AAE-B418-4912-AD2E-3885B642BE1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Vektor", "BasicProgramming1\12_Osnovy_OOP\Practice_01_Vektor\Practice_01_Vektor.csproj", "{32D76AAE-B418-4912-AD2E-3885B642BE1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Otrezok", "12_Osnovy_OOP\Practice_02_Otrezok\Practice_02_Otrezok.csproj", "{0D41A7FF-27F2-4E4E-8A89-741B236F25BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Otrezok", "BasicProgramming1\12_Osnovy_OOP\Practice_02_Otrezok\Practice_02_Otrezok.csproj", "{0D41A7FF-27F2-4E4E-8A89-741B236F25BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Nestaticheskie_metody", "12_Osnovy_OOP\Practice_03_Nestaticheskie_metody\Practice_03_Nestaticheskie_metody.csproj", "{37FC3879-3C40-4450-BF53-832412975B2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Nestaticheskie_metody", "BasicProgramming1\12_Osnovy_OOP\Practice_03_Nestaticheskie_metody\Practice_03_Nestaticheskie_metody.csproj", "{37FC3879-3C40-4450-BF53-832412975B2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_04_256_ottenkov_serogo", "12_Osnovy_OOP\Practice_04_256_ottenkov_serogo\Practice_04_256_ottenkov_serogo.csproj", "{A62E8811-66C0-4CCA-A140-1DA3FC70F7FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_04_256_ottenkov_serogo", "BasicProgramming1\12_Osnovy_OOP\Practice_04_256_ottenkov_serogo\Practice_04_256_ottenkov_serogo.csproj", "{A62E8811-66C0-4CCA-A140-1DA3FC70F7FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicProgramming1", "BasicProgramming1", "{C861E95A-E501-4B86-A497-EEDD449542A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicProgramming2", "BasicProgramming2", "{48A51C29-A1B5-418E-A453-F7D1C70B8285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Delegaty", "04_Delegaty", "{63F7795D-835A-4C7F-94A0-FD164A4E0681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Sintaksis_delegatov", "BasicProgramming2\04_Delegaty\01_Sintaksis_delegatov\01_Sintaksis_delegatov.csproj", "{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -345,11 +353,16 @@ Global
 		{A62E8811-66C0-4CCA-A140-1DA3FC70F7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A62E8811-66C0-4CCA-A140-1DA3FC70F7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A62E8811-66C0-4CCA-A140-1DA3FC70F7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{0E589B36-99C3-4596-971C-23960866C34F} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{0390253D-18DF-41A2-BE80-108F3E22CC14} = {0E589B36-99C3-4596-971C-23960866C34F}
 		{D2CA7408-DE2C-43AF-81C4-7E488DAB3E97} = {0E589B36-99C3-4596-971C-23960866C34F}
 		{EFF30B23-EC79-4AA0-8C00-15811427969A} = {0E589B36-99C3-4596-971C-23960866C34F}
@@ -359,28 +372,35 @@ Global
 		{2A571124-274E-495D-A006-4752B26BB63F} = {0E589B36-99C3-4596-971C-23960866C34F}
 		{0015F5FA-6115-4A1A-AE49-C9AABE6AC15E} = {0E589B36-99C3-4596-971C-23960866C34F}
 		{B2551247-7E7B-41B6-9D72-B1EA9386CDEB} = {0E589B36-99C3-4596-971C-23960866C34F}
+		{5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{A4F34EFB-94B3-4827-9828-33C3328F96A8} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
 		{DCFB2248-4DA8-4EFC-B57B-E44226889FBA} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
 		{3E9A3282-5D27-4974-B4D8-EACDD0BB972E} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
 		{23B9004E-6038-4127-8AD4-500EAAAF63C7} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
 		{5A59E50B-7340-49BC-8398-6F82C86F99D9} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
+		{B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{B4A89BF3-2527-4FD5-A978-CB786D824CAE} = {B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}
 		{83C1B1C1-13DC-49D3-8E2E-441272B38622} = {B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}
 		{B2E60AD8-4139-4C69-AD6A-935B9673678E} = {B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}
+		{54910455-102C-4B65-96C4-5ECFB1E661DA} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{FAEE9DED-2A72-490C-9A51-9FAA0273958A} = {54910455-102C-4B65-96C4-5ECFB1E661DA}
 		{8BDB0708-2233-40EE-A9CB-F899AF64C062} = {54910455-102C-4B65-96C4-5ECFB1E661DA}
 		{C26194EF-DB3D-44D1-821F-99B6C7898AE7} = {54910455-102C-4B65-96C4-5ECFB1E661DA}
 		{5A6EF116-A0CE-49C5-9368-9268712EB321} = {54910455-102C-4B65-96C4-5ECFB1E661DA}
+		{BCD902FC-508A-40B0-AC45-B495C961EF48} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{8C9F0CF6-948E-45EF-AB3B-80BFE249E76B} = {BCD902FC-508A-40B0-AC45-B495C961EF48}
 		{0D34A55E-CF97-40FA-B5E8-9EA9EEE2E01D} = {BCD902FC-508A-40B0-AC45-B495C961EF48}
 		{B2467F90-0819-4750-B862-647439087EF4} = {BCD902FC-508A-40B0-AC45-B495C961EF48}
 		{D64364AB-53AF-47A9-87E3-29778B94FEC3} = {BCD902FC-508A-40B0-AC45-B495C961EF48}
 		{7DF41C97-D110-4223-BA11-E456287298D2} = {BCD902FC-508A-40B0-AC45-B495C961EF48}
+		{71A05806-6C21-45F5-BE7A-28ABAAE64261} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{1BA691BA-A2BC-4299-90DD-D385411FB0D7} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
 		{5790559B-A762-469B-942E-FE1DCD438742} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
 		{B72B0058-5D23-463B-A5C0-D8E40F664597} = {B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}
 		{105ABC87-92A4-42BA-8B34-5232D8A1FDC8} = {B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}
+		{8A584060-E3E3-4A20-9D8C-04D77D269653} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{E0B72A96-88CD-4073-80D7-9816ABE4FB08} = {8A584060-E3E3-4A20-9D8C-04D77D269653}
+		{617F07BD-1D84-46FC-A3F8-2C2EE1971430} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{FB91306A-B186-4EDB-A6A5-E8402A7AAF5B} = {617F07BD-1D84-46FC-A3F8-2C2EE1971430}
 		{E4FBBD6B-2509-407B-B827-F750F9D20CB6} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
 		{B4C13963-E8EC-4B84-87D6-1EF694B3D24A} = {5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}
@@ -393,6 +413,7 @@ Global
 		{B9CE791D-E715-41A0-A9D1-98D667E42838} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
 		{7066E4CF-88C3-4C97-A1AF-16F8CF5A4CA4} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
 		{E7F5D985-677D-4246-BA75-4BAE24DF38B5} = {71A05806-6C21-45F5-BE7A-28ABAAE64261}
+		{CB3C79C0-722B-4D97-AD93-807F553B05A2} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{46331521-E915-4A9C-95DD-3148240E1AA7} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{DFD8F69E-4888-4E96-AC59-8466428CB8D7} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
@@ -402,6 +423,8 @@ Global
 		{0D41A7FF-27F2-4E4E-8A89-741B236F25BA} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{37FC3879-3C40-4450-BF53-832412975B2D} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{A62E8811-66C0-4CCA-A140-1DA3FC70F7FA} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
+		{63F7795D-835A-4C7F-94A0-FD164A4E0681} = {48A51C29-A1B5-418E-A453-F7D1C70B8285}
+		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24} = {63F7795D-835A-4C7F-94A0-FD164A4E0681}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
