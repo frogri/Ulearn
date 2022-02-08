@@ -142,6 +142,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sklejka_massivov", "Basi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Snova_srednee_trekh", "BasicProgramming1\13_Nasledovanie\03_Snova_srednee_trekh\03_Snova_srednee_trekh.csproj", "{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Poisk_minimuma", "BasicProgramming1\13_Nasledovanie\04_Poisk_minimuma\04_Poisk_minimuma.csproj", "{37F1241D-00B3-4047-9854-E8E2F9398A68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -376,6 +378,10 @@ Global
 		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F1241D-00B3-4047-9854-E8E2F9398A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F1241D-00B3-4047-9854-E8E2F9398A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F1241D-00B3-4047-9854-E8E2F9398A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F1241D-00B3-4047-9854-E8E2F9398A68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -448,6 +454,7 @@ Global
 		{F6421281-8E95-43F6-8A96-5BDADA568C5E} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
 		{25EE7C34-E2A9-4E27-9467-82AC8375E6BC} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
 		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
+		{37F1241D-00B3-4047-9854-E8E2F9398A68} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
