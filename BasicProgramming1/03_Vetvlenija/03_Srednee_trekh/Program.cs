@@ -14,10 +14,6 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Srednee_trekh
 {
@@ -39,9 +35,19 @@ namespace Srednee_trekh
         public static int MiddleOf(int a, int b, int c)
         {
             //TODO: Слишком длинная строка
-            if ((a > b && a < c) || (a < b && a > c) || (a == b && a == c) || (a == b && a != c) || (a == c && a != b)) return a;
-            else if ((b > a && b < c) || (b < a && b > c) || (b == c && b != a)) return b;
-            else return c;
+            if ((a > b && a < c) 
+                || (a < b && a > c) 
+                || (a == b && a == c) 
+                || (a == b && a != c) 
+                || (a == c && a != b)) 
+                return a;
+
+            if ((b > a && b < c) 
+                || (b < a && b > c) 
+                || (b == c && b != a)) 
+                return b;
+
+            return c;
         }
     }
 }
