@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Practice_01_Zemlja_i_digger
+namespace Digger
 {
     public static class CreatureMapCreator
     {

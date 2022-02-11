@@ -1,4 +1,4 @@
-﻿namespace Practice_01_Zemlja_i_digger
+﻿namespace Digger
 {
     public interface ICreature
     {
