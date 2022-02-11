@@ -1,9 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32002.185
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Pervoe_znakomstvo_s_C_Sharp", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp", "{0E589B36-99C3-4596-971C-23960866C34F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Pervoe_znakomstvo_s_C_Sharp", "01_Pervoe_znakomstvo_s_C_Sharp", "{0E589B36-99C3-4596-971C-23960866C34F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Pervyy_shag", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\01_Pervyy_shag\01_Pervyy_shag.csproj", "{0390253D-18DF-41A2-BE80-108F3E22CC14}"
 EndProject
@@ -23,7 +22,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Dobryy_rabotodatel", "Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Glavnyy_vopros_Vselennoy", "BasicProgramming1\01_Pervoe_znakomstvo_s_C_Sharp\08_Glavnyy_vopros_Vselennoy\08_Glavnyy_vopros_Vselennoy.csproj", "{B2551247-7E7B-41B6-9D72-B1EA9386CDEB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Oshibki", "BasicProgramming1\02_Oshibki", "{5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Oshibki", "02_Oshibki", "{5AD58AC4-CC38-4AB8-AE08-31D10E53ED8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ochepyatki", "BasicProgramming1\02_Oshibki\01_Ochepyatki\01_Ochepyatki.csproj", "{A4F34EFB-94B3-4827-9828-33C3328F96A8}"
 EndProject
@@ -35,7 +34,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_AngryBirds", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Billiards", "BasicProgramming1\02_Oshibki\Practice_02_Billiards\Practice_02_Billiards.csproj", "{5A59E50B-7340-49BC-8398-6F82C86F99D9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Vetvlenija", "BasicProgramming1\03_Vetvlenija", "{B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Vetvlenija", "03_Vetvlenija", "{B79EAD94-B945-4D9A-BBA4-B9D38CE6DBEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Visokosnyy_god", "BasicProgramming1\03_Vetvlenija\01_Visokosnyy_god\01_Visokosnyy_god.csproj", "{B4A89BF3-2527-4FD5-A978-CB786D824CAE}"
 EndProject
@@ -43,7 +42,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Khod_ferzya", "BasicProg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Srednee_trekh", "BasicProgramming1\03_Vetvlenija\03_Srednee_trekh\03_Srednee_trekh.csproj", "{B2E60AD8-4139-4C69-AD6A-935B9673678E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Cycli", "BasicProgramming1\04_Cycli", "{54910455-102C-4B65-96C4-5ECFB1E661DA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Cycli", "04_Cycli", "{54910455-102C-4B65-96C4-5ECFB1E661DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_V_poiskakh_stepeni_dvoyki", "BasicProgramming1\04_Cycli\01_V_poiskakh_stepeni_dvoyki\01_V_poiskakh_stepeni_dvoyki.csproj", "{FAEE9DED-2A72-490C-9A51-9FAA0273958A}"
 EndProject
@@ -53,7 +52,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Ramochka", "BasicProgram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Shakhmatnaya_doska", "BasicProgramming1\04_Cycli\04_Shakhmatnaya_doska\04_Shakhmatnaya_doska.csproj", "{5A6EF116-A0CE-49C5-9368-9268712EB321}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Massivi", "BasicProgramming1\05_Massivi", "{BCD902FC-508A-40B0-AC45-B495C961EF48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Massivi", "05_Massivi", "{BCD902FC-508A-40B0-AC45-B495C961EF48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Chetnyy_massiv", "BasicProgramming1\05_Massivi\01_Chetnyy_massiv\01_Chetnyy_massiv.csproj", "{8C9F0CF6-948E-45EF-AB3B-80BFE249E76B}"
 EndProject
@@ -65,7 +64,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Poisk_massiva_v_massive"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Karty_Taro", "BasicProgramming1\05_Massivi\05_Karty_Taro\05_Karty_Taro.csproj", "{7DF41C97-D110-4223-BA11-E456287298D2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Kollekcii_stroki_fajli", "BasicProgramming1\06_Kollekcii_stroki_fajli", "{71A05806-6C21-45F5-BE7A-28ABAAE64261}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Kollekcii_stroki_fajli", "06_Kollekcii_stroki_fajli", "{71A05806-6C21-45F5-BE7A-28ABAAE64261}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Shifr_neznakomki", "BasicProgramming1\06_Kollekcii_stroki_fajli\01_Shifr_neznakomki\01_Shifr_neznakomki.csproj", "{1BA691BA-A2BC-4299-90DD-D385411FB0D7}"
 EndProject
@@ -75,11 +74,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Upravlenie_robotom", "Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Pluralize", "BasicProgramming1\03_Vetvlenija\Practice_01_Pluralize\Practice_01_Pluralize.csproj", "{105ABC87-92A4-42BA-8B34-5232D8A1FDC8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_Rekursivniye_algoritmy", "BasicProgramming1\09_Rekursivniye_algoritmy", "{8A584060-E3E3-4A20-9D8C-04D77D269653}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_Rekursivniye_algoritmy", "09_Rekursivniye_algoritmy", "{8A584060-E3E3-4A20-9D8C-04D77D269653}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ispravit_rekursiyu", "BasicProgramming1\09_Rekursivniye_algoritmy\01_Ispravit_rekursiyu\01_Ispravit_rekursiyu.csproj", "{E0B72A96-88CD-4073-80D7-9816ABE4FB08}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_Poisk_i_Sortirovka", "BasicProgramming1\10_Poisk_i_Sortirovka", "{617F07BD-1D84-46FC-A3F8-2C2EE1971430}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_Poisk_i_Sortirovka", "10_Poisk_i_Sortirovka", "{617F07BD-1D84-46FC-A3F8-2C2EE1971430}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Rekursivnyy_binarnyy_poisk", "BasicProgramming1\10_Poisk_i_Sortirovka\01_Rekursivnyy_binarnyy_poisk\01_Rekursivnyy_binarnyy_poisk.csproj", "{FB91306A-B186-4EDB-A6A5-E8402A7AAF5B}"
 EndProject
@@ -107,7 +106,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Parser_Predlozh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B327E15A-9FF6-4746-A8D3-FB160A944A05}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_Osnovy_OOP", "BasicProgramming1\12_Osnovy_OOP", "{CB3C79C0-722B-4D97-AD93-807F553B05A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_Osnovy_OOP", "12_Osnovy_OOP", "{CB3C79C0-722B-4D97-AD93-807F553B05A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Sozdanije_klassov", "BasicProgramming1\12_Osnovy_OOP\01_Sozdanije_klassov\01_Sozdanije_klassov.csproj", "{08ADFEA8-76EB-4CE6-AE3D-4575AE03325F}"
 EndProject
@@ -134,6 +133,24 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Delegaty", "04_Delegaty", "{63F7795D-835A-4C7F-94A0-FD164A4E0681}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Sintaksis_delegatov", "BasicProgramming2\04_Delegaty\01_Sintaksis_delegatov\01_Sintaksis_delegatov.csproj", "{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13_Nasledovanie", "13_Nasledovanie", "{FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Vsem_pechat", "BasicProgramming1\13_Nasledovanie\01_Vsem_pechat\01_Vsem_pechat.csproj", "{F6421281-8E95-43F6-8A96-5BDADA568C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sklejka_massivov", "BasicProgramming1\13_Nasledovanie\02_Sklejka_massivov\02_Sklejka_massivov.csproj", "{25EE7C34-E2A9-4E27-9467-82AC8375E6BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Snova_srednee_trekh", "BasicProgramming1\13_Nasledovanie\03_Snova_srednee_trekh\03_Snova_srednee_trekh.csproj", "{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Poisk_minimuma", "BasicProgramming1\13_Nasledovanie\04_Poisk_minimuma\04_Poisk_minimuma.csproj", "{37F1241D-00B3-4047-9854-E8E2F9398A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Sravnenie_knig", "BasicProgramming1\13_Nasledovanie\05_Sravnenie_knig\05_Sravnenie_knig.csproj", "{7973F059-38BB-4096-B459-33A5B3B74985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Protiv_chasovoj_strelki", "BasicProgramming1\13_Nasledovanie\06_Protiv_chasovoj_strelki\06_Protiv_chasovoj_strelki.csproj", "{3BCB0078-F5B6-4DB7-B87D-D14903636033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Metod_ToString", "BasicProgramming1\13_Nasledovanie\07_Metod_ToString\07_Metod_ToString.csproj", "{47B1DCAE-713C-4CD5-BF1E-507512BF5412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Zemlja_i_digger", "BasicProgramming1\13_Nasledovanie\Practice_01_Zemlja_i_digger\Practice_01_Zemlja_i_digger.csproj", "{610D5A45-09EB-4839-B6E5-D8601DB31897}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -357,6 +374,38 @@ Global
 		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6421281-8E95-43F6-8A96-5BDADA568C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6421281-8E95-43F6-8A96-5BDADA568C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6421281-8E95-43F6-8A96-5BDADA568C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6421281-8E95-43F6-8A96-5BDADA568C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25EE7C34-E2A9-4E27-9467-82AC8375E6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25EE7C34-E2A9-4E27-9467-82AC8375E6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25EE7C34-E2A9-4E27-9467-82AC8375E6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25EE7C34-E2A9-4E27-9467-82AC8375E6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F1241D-00B3-4047-9854-E8E2F9398A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F1241D-00B3-4047-9854-E8E2F9398A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F1241D-00B3-4047-9854-E8E2F9398A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F1241D-00B3-4047-9854-E8E2F9398A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7973F059-38BB-4096-B459-33A5B3B74985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7973F059-38BB-4096-B459-33A5B3B74985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7973F059-38BB-4096-B459-33A5B3B74985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7973F059-38BB-4096-B459-33A5B3B74985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCB0078-F5B6-4DB7-B87D-D14903636033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCB0078-F5B6-4DB7-B87D-D14903636033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCB0078-F5B6-4DB7-B87D-D14903636033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCB0078-F5B6-4DB7-B87D-D14903636033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B1DCAE-713C-4CD5-BF1E-507512BF5412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B1DCAE-713C-4CD5-BF1E-507512BF5412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B1DCAE-713C-4CD5-BF1E-507512BF5412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B1DCAE-713C-4CD5-BF1E-507512BF5412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610D5A45-09EB-4839-B6E5-D8601DB31897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610D5A45-09EB-4839-B6E5-D8601DB31897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610D5A45-09EB-4839-B6E5-D8601DB31897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610D5A45-09EB-4839-B6E5-D8601DB31897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -425,6 +474,15 @@ Global
 		{A62E8811-66C0-4CCA-A140-1DA3FC70F7FA} = {CB3C79C0-722B-4D97-AD93-807F553B05A2}
 		{63F7795D-835A-4C7F-94A0-FD164A4E0681} = {48A51C29-A1B5-418E-A453-F7D1C70B8285}
 		{7B364F6A-BE73-4074-BA61-C2F8AEC01C24} = {63F7795D-835A-4C7F-94A0-FD164A4E0681}
+		{FF6A556E-88F2-49D0-AD58-1EB0BDB4089E} = {C861E95A-E501-4B86-A497-EEDD449542A0}
+		{F6421281-8E95-43F6-8A96-5BDADA568C5E} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
+		{25EE7C34-E2A9-4E27-9467-82AC8375E6BC} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
+		{E9DFA179-49D6-40E1-B3F4-597D2B78E9E2} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
+		{37F1241D-00B3-4047-9854-E8E2F9398A68} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
+		{7973F059-38BB-4096-B459-33A5B3B74985} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
+		{3BCB0078-F5B6-4DB7-B87D-D14903636033} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
+		{47B1DCAE-713C-4CD5-BF1E-507512BF5412} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
+		{610D5A45-09EB-4839-B6E5-D8601DB31897} = {FF6A556E-88F2-49D0-AD58-1EB0BDB4089E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
