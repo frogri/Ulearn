@@ -158,6 +158,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ne_otkladyvat_oshibki", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Svojstvo_vmesto_polya", "BasicProgramming1\14_Celostnost_dannyh\02_Svojstvo_vmesto_polya\02_Svojstvo_vmesto_polya.csproj", "{491EBBCB-0FA0-419A-9D7F-AED5920ABA52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Vector", "BasicProgramming1\14_Celostnost_dannyh\03_Vector\03_Vector.csproj", "{200D51A5-ADD9-4745-89B9-C7E53235EE23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -420,6 +422,10 @@ Global
 		{491EBBCB-0FA0-419A-9D7F-AED5920ABA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{491EBBCB-0FA0-419A-9D7F-AED5920ABA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{491EBBCB-0FA0-419A-9D7F-AED5920ABA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200D51A5-ADD9-4745-89B9-C7E53235EE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200D51A5-ADD9-4745-89B9-C7E53235EE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200D51A5-ADD9-4745-89B9-C7E53235EE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200D51A5-ADD9-4745-89B9-C7E53235EE23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -500,6 +506,7 @@ Global
 		{17E6DD88-2705-4C95-884D-03925B82ED12} = {C861E95A-E501-4B86-A497-EEDD449542A0}
 		{3E6F8D62-A322-4E12-9924-ACBB7F32B7E8} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 		{491EBBCB-0FA0-419A-9D7F-AED5920ABA52} = {17E6DD88-2705-4C95-884D-03925B82ED12}
+		{200D51A5-ADD9-4745-89B9-C7E53235EE23} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
