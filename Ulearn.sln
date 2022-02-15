@@ -162,6 +162,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Vector", "BasicProgrammi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Drob", "BasicProgramming1\04_Drob\04_Drob.csproj", "{C963D144-B33B-4923-A165-39E56CE60E8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Readonly_Vector", "BasicProgramming1\14_Celostnost_dannyh\Practice_01_Readonly_Vector\Practice_01_Readonly_Vector.csproj", "{2FE54174-6C83-48CB-897E-80136140B995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -432,6 +434,10 @@ Global
 		{C963D144-B33B-4923-A165-39E56CE60E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C963D144-B33B-4923-A165-39E56CE60E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C963D144-B33B-4923-A165-39E56CE60E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE54174-6C83-48CB-897E-80136140B995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE54174-6C83-48CB-897E-80136140B995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE54174-6C83-48CB-897E-80136140B995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE54174-6C83-48CB-897E-80136140B995}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -514,6 +520,7 @@ Global
 		{491EBBCB-0FA0-419A-9D7F-AED5920ABA52} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 		{200D51A5-ADD9-4745-89B9-C7E53235EE23} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 		{C963D144-B33B-4923-A165-39E56CE60E8E} = {17E6DD88-2705-4C95-884D-03925B82ED12}
+		{2FE54174-6C83-48CB-897E-80136140B995} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
