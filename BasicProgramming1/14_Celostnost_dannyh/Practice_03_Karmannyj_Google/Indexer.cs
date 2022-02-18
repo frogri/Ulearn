@@ -7,11 +7,11 @@ namespace PocketGoogle
     public class Indexer : IIndexer
     {
         // key - слово в документе, value - словарь (key - id документа, value - стартовые индексы слова в документе)
-        private readonly IDictionary<string, Dictionary<int, List<int>>> documents;
+        private readonly Collector collector = new Collector();
 
         public Indexer()
         {
-            documents = new Dictionary<string, Dictionary<int, List<int>>>();  
+            collector.Words = new Dictionary<string, DocsIds>();
         }
 
         public void Add(int id, string documentText)
@@ -21,38 +21,62 @@ namespace PocketGoogle
 
             foreach (Match match in matches)
             {
-                if (!documents.ContainsKey(match.Value))
-                    documents[match.Value] = new Dictionary<int, List<int>>();
+                var word = match.Value;
+                var wordIndex = match.Index;
 
-                if (!documents[match.Value].ContainsKey(id))
-                    documents[match.Value][id] = new List<int>();
+                if (!collector.Words.ContainsKey(word))
+                    collector.Words[word] = new DocsIds();
 
-                documents[match.Value][id].Add(match.Index);
+                if (collector.Words[word].DocumentsIds == null)
+                    collector.Words[word].DocumentsIds = new Dictionary<int, WordsPositions>();
+                
+                if (!collector.Words[word].DocumentsIds.ContainsKey(id))
+                    collector.Words[word].DocumentsIds[id] = new WordsPositions();
+
+                if (collector.Words[word].DocumentsIds[id].StartIndexes == null)
+                    collector.Words[word].DocumentsIds[id].StartIndexes = new List<int>();
+                
+                collector.Words[word].DocumentsIds[id].StartIndexes.Add(wordIndex);
             }
         }
 
         public List<int> GetIds(string word)
         {
-            if (!documents.TryGetValue(word, out var value))
+            if (!collector.Words.TryGetValue(word, out var foundedWord))
                 return new List<int>();
 
-            return value.Keys.ToList();
+            return foundedWord.DocumentsIds.Keys.ToList();
         }
 
         public List<int> GetPositions(int id, string word)
         {
-            if (!documents.TryGetValue(word, out var value) || !value.ContainsKey(id))
+            if (!collector.Words.TryGetValue(word, out var foundedWord) || !foundedWord.DocumentsIds.ContainsKey(id))
                 return new List<int>();
 
-            return value[id];
+            return foundedWord.DocumentsIds[id].StartIndexes;
         }
 
         public void Remove(int id)
         {
-            var documentsToRemove = documents.Where(item => item.Value.ContainsKey(id));
+            var docsToRemove = collector.Words.Where(item => item.Value.DocumentsIds.ContainsKey(id));
 
-            foreach (var documentToRemove in documentsToRemove)
-                documents[documentToRemove.Key].Remove(id);
+            foreach (var docToRemove in docsToRemove)
+                collector.Words[docToRemove.Key].DocumentsIds.Remove(id);
+        }
+
+        public class Collector
+        {
+            public Dictionary<string, DocsIds> Words { get; set; }
+        }
+
+        public class DocsIds
+        {
+            public Dictionary<int, WordsPositions> DocumentsIds { get; set; }
+        }
+
+        public class WordsPositions
+        {
+            public List<int> StartIndexes { get; set; }
         }
     }
 }
