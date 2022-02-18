@@ -19,22 +19,23 @@ namespace PocketGoogle
             var dictionary = new Dictionary<int, string>();
             var indexer = new Indexer();
 
+            ReadAllFiles(dictionary, indexer);
+
+            Application.Run(new PocketGoogleWindow(indexer, dictionary));
+        }
+
+        private static void ReadAllFiles(IDictionary<int, string> dictionary, IIndexer indexer)
+        {
             var directoryInfo = new DirectoryInfo("Texts");
             foreach (var file in directoryInfo.GetFiles("*.txt"))
             {
                 var parts = file.Name.Split('.');
                 var id = int.Parse(parts[0]);
-                var text = File.ReadAllText(file.FullName).Replace("\r", "");
-                //var text = File.ReadAllText("E:\\Visual Studio Projects\\Ulearn\\BasicProgramming1\\14_Celostnost_dannyh\\Practice_03_Karmannyj_Google\\bin\\Debug\\Texts\\99.txt").Replace("\r", "");
+                var text = File.ReadAllText(file.FullName).Replace("\r", string.Empty);
+
                 dictionary[id] = text;
                 indexer.Add(id, text);
-
-                //indexer.Remove(id);
-                //indexer.Add(id, text);
-                //break;
             }
-
-            Application.Run(new PocketGoogleWindow(indexer, dictionary));
         }
     }
 }

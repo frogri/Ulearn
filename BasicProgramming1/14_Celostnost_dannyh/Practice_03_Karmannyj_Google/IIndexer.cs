@@ -5,31 +5,31 @@ namespace PocketGoogle
     public interface IIndexer
     {
         /// <summary>
-        ///     Adds the document to the index
+        ///     Добавление документа в индексер
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="text"></param>
+        /// <param name="id">Id документа</param>
+        /// <param name="documentText">Текст документа</param>
         void Add(int id, string documentText);
 
         /// <summary>
-        ///     Removes document from the index
+        ///     Удаляет документ из индекса, после чего слова в нем искаться больше не будут
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">Id документа для удаления</param>
         void Remove(int id);
 
         /// <summary>
-        ///     Returns all the ids such that corresponding documents contains a word
+        ///     По слову ищет все id документов, содержащих данное слово
         /// </summary>
-        /// <param name="word"></param>
-        /// <returns></returns>
+        /// <param name="word">Ключевое слово для поиска</param>
+        /// <returns>Список id документов</returns>
         List<int> GetIds(string word);
 
         /// <summary>
-        ///     Returns all the positions in the document with the given id, where the given word starts
+        ///     По слову и id документа ищет все позиции, в которых слово начинается
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="word"></param>
-        /// <returns></returns>
+        /// <param name="id">Id документа</param>
+        /// <param name="word">Ключевое слово для поиска</param>
+        /// <returns>Список позиций, в которых находится слово</returns>
         List<int> GetPositions(int id, string word);
     }
 }

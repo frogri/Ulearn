@@ -1,120 +1,58 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace PocketGoogle
 {
     public class Indexer : IIndexer
     {
-        private readonly Dictionary<int, string> allText = new Dictionary<int, string>();
-        private readonly Dictionary<int, Dictionary<int, string>> allSplittedText = new Dictionary<int, Dictionary<int, string>>();
-        
-        /// <summary>
-        ///     Индексирует все слова в документе
-        /// </summary>
-        /// <param name="id">Id документа</param>
-        /// <param name="documentText">Текст документа</param>
+        // key - слово в документе, value - словарь (key - id документа, value - стартовые индексы слова в документе)
+        private readonly IDictionary<string, Dictionary<int, List<int>>> documents;
+
+        public Indexer()
+        {
+            documents = new Dictionary<string, Dictionary<int, List<int>>>();  
+        }
+
         public void Add(int id, string documentText)
         {
-            allText.Add(id, documentText); // key - id документа, value - текст документа
+            // разбиваем строку на слова
+            var matches = Regex.Matches(documentText, @"[\wа-яА-Я]+");
 
-            var separators = new[] { ' ', '.', ',', '!', '?', ':', '-', '\r', '\n' };
-            var array = documentText.Split(separators);
+            foreach (Match match in matches)
+            {
+                if (!documents.ContainsKey(match.Value))
+                    documents[match.Value] = new Dictionary<int, List<int>>();
 
-            var dictionary = new Dictionary<int, string>(); // key - индекс слова в тексте, value - само слово
+                if (!documents[match.Value].ContainsKey(id))
+                    documents[match.Value][id] = new List<int>();
 
-            // dictionary = array.Select((v, i) => new { Key = i, Value = v }).ToDictionary(o => o.Key, o => o.Value);
-            for (var i = 0; i < array.Length; i++)
-                dictionary.Add(i, array[i]);
-
-            allSplittedText.Add(id, dictionary); // key - id документа, value - словарь с индексированными словами
+                documents[match.Value][id].Add(match.Index);
+            }
         }
 
-        /// <summary>
-        ///     Ищет по слову все id документов, где оно встречается
-        /// </summary>
-        /// <param name="word">Ключевое слово для поиска</param>
-        /// <returns>Список id документов</returns>
         public List<int> GetIds(string word)
         {
-            var ids = new List<int>();
+            if (!documents.TryGetValue(word, out var value))
+                return new List<int>();
 
-            if (string.IsNullOrEmpty(word))
-                return ids;
-
-            foreach (var dictionary in allSplittedText)
-            {
-                if (dictionary.Value.ContainsValue(word))
-                    ids.Add(dictionary.Key);
-            }
-
-            //foreach (var pair in allText)
-            //{
-            //    if (pair.Value.Contains(word))
-            //        ids.Add(pair.Key);
-            //}
-
-            return ids;
+            return value.Keys.ToList();
         }
 
-        /// <summary>
-        ///     По слову и id документа ищет все позиции, в которых слово начинается
-        /// </summary>
-        /// <param name="id">Id документа</param>
-        /// <param name="word">Ключевое слово для поиска</param>
-        /// <returns>Список позиций, в которых находится слово</returns>
         public List<int> GetPositions(int id, string word)
         {
-            var positions = new List<int>();
+            if (!documents.TryGetValue(word, out var value) || !value.ContainsKey(id))
+                return new List<int>();
 
-            if (allSplittedText.ContainsKey(id))
-            {
-                if (allSplittedText[id].Values.Contains(word))
-                {
-                    positions = AllIndexesOf(allText[id], word);
-                }
-
-                //foreach (var dictionary in dict)
-                //{
-                //    if (dictionary.ContainsValue(word))
-                //        positions = AllIndexesOf(allText[id], word);
-                //}
-                //if (allSplittedText.Values.)
-                //{
-                //}
-
-                //positions = AllIndexesOf(allText[id], word);
-            }
-
-            return positions;
+            return value[id];
         }
 
-        /// <summary>
-        ///     Удаляет документ из индекса, после чего слова в нем искаться больше не будут
-        /// </summary>
-        /// <param name="id">Id документа для удаления</param>
         public void Remove(int id)
         {
-            if (allText.ContainsKey(id))
-                allText.Remove(id);
-            
-            if (allSplittedText.ContainsKey(id))
-                allSplittedText.Remove(id);
-        }
+            var documentsToRemove = documents.Where(item => item.Value.ContainsKey(id));
 
-        private List<int> AllIndexesOf(string str, string word)
-        {
-            //if (string.IsNullOrEmpty(word))
-            //    throw new ArgumentException("the string to find may not be empty", "value");
-
-            var indexes = new List<int>();
-            for (var index = 0;; index += word.Length)
-            {
-                index = str.IndexOf(word, index, StringComparison.Ordinal);
-                if (index == -1)
-                    return indexes;
-                indexes.Add(index);
-            }
+            foreach (var documentToRemove in documentsToRemove)
+                documents[documentToRemove.Key].Remove(id);
         }
     }
 }
