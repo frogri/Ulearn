@@ -168,6 +168,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Schet_iz_otelya
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Karmannyj_Google", "BasicProgramming1\14_Celostnost_dannyh\Practice_03_Karmannyj_Google\Practice_03_Karmannyj_Google.csproj", "{E80A9436-EF8E-450E-9C01-F5BC2566B01A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15_Struktury", "15_Struktury", "{24408198-338C-4688-B299-82B1D9BE81BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Primenenie_ref", "BasicProgramming1\15_Struktury\01_Primenenie_ref\01_Primenenie_ref.csproj", "{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -450,6 +454,10 @@ Global
 		{E80A9436-EF8E-450E-9C01-F5BC2566B01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E80A9436-EF8E-450E-9C01-F5BC2566B01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E80A9436-EF8E-450E-9C01-F5BC2566B01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -535,6 +543,8 @@ Global
 		{2FE54174-6C83-48CB-897E-80136140B995} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 		{F894C7F0-D64F-45C0-A935-4D1E9D2B8E64} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 		{E80A9436-EF8E-450E-9C01-F5BC2566B01A} = {17E6DD88-2705-4C95-884D-03925B82ED12}
+		{24408198-338C-4688-B299-82B1D9BE81BD} = {C861E95A-E501-4B86-A497-EEDD449542A0}
+		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE} = {24408198-338C-4688-B299-82B1D9BE81BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
