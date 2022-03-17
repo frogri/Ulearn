@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Pervoe_znakomstvo_s_C_Sharp", "01_Pervoe_znakomstvo_s_C_Sharp", "{0E589B36-99C3-4596-971C-23960866C34F}"
 EndProject
@@ -168,13 +168,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Schet_iz_otelya
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_03_Karmannyj_Google", "BasicProgramming1\14_Celostnost_dannyh\Practice_03_Karmannyj_Google\Practice_03_Karmannyj_Google.csproj", "{E80A9436-EF8E-450E-9C01-F5BC2566B01A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15_Struktury", "15_Struktury", "{24408198-338C-4688-B299-82B1D9BE81BD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Ocheredi_steki_dzheneriki", "01_Ocheredi_steki_dzheneriki", "{493FEEA7-6CB6-4C6E-ABD1-769221C8B642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Primenenie_ref", "BasicProgramming1\15_Struktury\01_Primenenie_ref\01_Primenenie_ref.csproj", "{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Maksimum_v_massive", "BasicProgramming2\01_Ocheredi_steki_dzheneriki\01_Maksimum_v_massive\01_Maksimum_v_massive.csproj", "{603EBEC9-4786-4917-937D-1639233BB225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Benchmark", "BasicProgramming1\15_Struktury\Practice_01_Benchmark\Practice_01_Benchmark.csproj", "{CC1C687A-2C3E-4D80-81A7-99D71F83BB53}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proektirovanie_na_yazyke_CSharp", "Proektirovanie_na_yazyke_CSharp", "{0EE9AC1D-081C-41A9-90D7-F1DF50702D4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_02_Experiments", "BasicProgramming1\15_Struktury\Practice_02_Experiments\Practice_02_Experiments.csproj", "{92660D80-FE16-40EE-907D-B94644991DB1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15_Upravlenie_resursami", "15_Upravlenie_resursami", "{D4BC17F0-BFCE-4346-9F5C-EAC98C8CBE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Praktika_API", "Proektirovanie_na_yazyke_CSharp\15_Upravlenie_resursami\Practice_01_Praktika_API\Practice_01_Praktika_API.csproj", "{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -458,18 +460,14 @@ Global
 		{E80A9436-EF8E-450E-9C01-F5BC2566B01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E80A9436-EF8E-450E-9C01-F5BC2566B01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E80A9436-EF8E-450E-9C01-F5BC2566B01A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC1C687A-2C3E-4D80-81A7-99D71F83BB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC1C687A-2C3E-4D80-81A7-99D71F83BB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC1C687A-2C3E-4D80-81A7-99D71F83BB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC1C687A-2C3E-4D80-81A7-99D71F83BB53}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92660D80-FE16-40EE-907D-B94644991DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92660D80-FE16-40EE-907D-B94644991DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92660D80-FE16-40EE-907D-B94644991DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92660D80-FE16-40EE-907D-B94644991DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603EBEC9-4786-4917-937D-1639233BB225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603EBEC9-4786-4917-937D-1639233BB225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603EBEC9-4786-4917-937D-1639233BB225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603EBEC9-4786-4917-937D-1639233BB225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -555,10 +553,10 @@ Global
 		{2FE54174-6C83-48CB-897E-80136140B995} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 		{F894C7F0-D64F-45C0-A935-4D1E9D2B8E64} = {17E6DD88-2705-4C95-884D-03925B82ED12}
 		{E80A9436-EF8E-450E-9C01-F5BC2566B01A} = {17E6DD88-2705-4C95-884D-03925B82ED12}
-		{24408198-338C-4688-B299-82B1D9BE81BD} = {C861E95A-E501-4B86-A497-EEDD449542A0}
-		{C08FE891-4C80-4F85-A1F2-90D4F201A1CE} = {24408198-338C-4688-B299-82B1D9BE81BD}
-		{CC1C687A-2C3E-4D80-81A7-99D71F83BB53} = {24408198-338C-4688-B299-82B1D9BE81BD}
-		{92660D80-FE16-40EE-907D-B94644991DB1} = {24408198-338C-4688-B299-82B1D9BE81BD}
+		{493FEEA7-6CB6-4C6E-ABD1-769221C8B642} = {48A51C29-A1B5-418E-A453-F7D1C70B8285}
+		{603EBEC9-4786-4917-937D-1639233BB225} = {493FEEA7-6CB6-4C6E-ABD1-769221C8B642}
+		{D4BC17F0-BFCE-4346-9F5C-EAC98C8CBE5B} = {0EE9AC1D-081C-41A9-90D7-F1DF50702D4D}
+		{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09} = {D4BC17F0-BFCE-4346-9F5C-EAC98C8CBE5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
