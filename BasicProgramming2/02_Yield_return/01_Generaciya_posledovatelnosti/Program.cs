@@ -29,7 +29,7 @@ namespace _01_Generaciya_posledovatelnosti
             {
                 yield return current;
 
-                ++current;
+                current++;
                 current = current < maxValue ? current : 0;
             }
         }
