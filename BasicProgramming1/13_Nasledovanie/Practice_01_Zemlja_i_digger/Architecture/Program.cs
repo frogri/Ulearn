@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Practice_01_Zemlja_i_digger
+namespace Digger
 {
     internal static class Program
     {

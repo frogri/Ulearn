@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Practice_01_Zemlja_i_digger
+namespace Digger
 {
     public class DiggerWindow : Form
     {

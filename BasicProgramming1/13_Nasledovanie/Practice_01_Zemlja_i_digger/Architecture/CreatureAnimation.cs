@@ -1,6 +1,6 @@
 using System.Drawing;
 
-namespace Practice_01_Zemlja_i_digger
+namespace Digger
 {
     public class CreatureAnimation
     {
