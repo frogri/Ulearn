@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Memory.API
 {
     public class APIObject : IDisposable
     {
         private bool isDisposed;
-        private int id;
+        private readonly int id;
 
         public APIObject(int id)
         {
@@ -19,7 +15,7 @@ namespace Memory.API
 
         ~APIObject()
         {
-            //Dispose(false);
+            Dispose(false);
             MagicAPI.Free(id);
         }
 
@@ -27,11 +23,9 @@ namespace Memory.API
         {
             if (!isDisposed)
             {
-                if (fromDisposeMethod)
-                {
+                if (fromDisposeMethod) 
                     MagicAPI.Free(id);
-                }
-                
+
                 isDisposed = true;
             }
         }
