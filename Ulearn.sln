@@ -182,6 +182,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sintaksis_delegatov_2", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Sintaksis_lyambd", "BasicProgramming2\04_Delegaty\03_Sintaksis_lyambd\03_Sintaksis_lyambd.csproj", "{374D4DA9-F7B3-4589-9349-516FD6484835}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Sintaksis_lyambd_2", "BasicProgramming2\04_Delegaty\04_Sintaksis_lyambd_2\04_Sintaksis_lyambd_2.csproj", "{9B218540-B8D0-40F3-A793-6089605C585F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -480,6 +482,10 @@ Global
 		{374D4DA9-F7B3-4589-9349-516FD6484835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{374D4DA9-F7B3-4589-9349-516FD6484835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{374D4DA9-F7B3-4589-9349-516FD6484835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B218540-B8D0-40F3-A793-6089605C585F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B218540-B8D0-40F3-A793-6089605C585F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B218540-B8D0-40F3-A793-6089605C585F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B218540-B8D0-40F3-A793-6089605C585F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -571,6 +577,7 @@ Global
 		{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09} = {D4BC17F0-BFCE-4346-9F5C-EAC98C8CBE5B}
 		{77C8FAD6-FA28-4C4A-B55D-54B94F1438E7} = {63F7795D-835A-4C7F-94A0-FD164A4E0681}
 		{374D4DA9-F7B3-4589-9349-516FD6484835} = {63F7795D-835A-4C7F-94A0-FD164A4E0681}
+		{9B218540-B8D0-40F3-A793-6089605C585F} = {63F7795D-835A-4C7F-94A0-FD164A4E0681}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
