@@ -178,7 +178,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15_Upravlenie_resursami", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01_Praktika_API", "Proektirovanie_na_yazyke_CSharp\15_Upravlenie_resursami\Practice_01_Praktika_API\Practice_01_Praktika_API.csproj", "{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sintaksis_delegatov_2", "BasicProgramming2\04_Delegaty\Sintaksis_delegatov_2\02_Sintaksis_delegatov_2.csproj", "{77C8FAD6-FA28-4C4A-B55D-54B94F1438E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sintaksis_delegatov_2", "BasicProgramming2\04_Delegaty\02_Sintaksis_delegatov_2\02_Sintaksis_delegatov_2.csproj", "{77C8FAD6-FA28-4C4A-B55D-54B94F1438E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Sintaksis_lyambd", "BasicProgramming2\04_Delegaty\03_Sintaksis_lyambd\03_Sintaksis_lyambd.csproj", "{374D4DA9-F7B3-4589-9349-516FD6484835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -474,6 +476,10 @@ Global
 		{77C8FAD6-FA28-4C4A-B55D-54B94F1438E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77C8FAD6-FA28-4C4A-B55D-54B94F1438E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77C8FAD6-FA28-4C4A-B55D-54B94F1438E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374D4DA9-F7B3-4589-9349-516FD6484835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374D4DA9-F7B3-4589-9349-516FD6484835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374D4DA9-F7B3-4589-9349-516FD6484835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374D4DA9-F7B3-4589-9349-516FD6484835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -564,6 +570,7 @@ Global
 		{D4BC17F0-BFCE-4346-9F5C-EAC98C8CBE5B} = {0EE9AC1D-081C-41A9-90D7-F1DF50702D4D}
 		{A4F81C19-D0B2-4689-B4A3-0E93AA3FFE09} = {D4BC17F0-BFCE-4346-9F5C-EAC98C8CBE5B}
 		{77C8FAD6-FA28-4C4A-B55D-54B94F1438E7} = {63F7795D-835A-4C7F-94A0-FD164A4E0681}
+		{374D4DA9-F7B3-4589-9349-516FD6484835} = {63F7795D-835A-4C7F-94A0-FD164A4E0681}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
