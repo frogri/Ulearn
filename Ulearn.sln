@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32002.185
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Pervoe_znakomstvo_s_C_Sharp", "01_Pervoe_znakomstvo_s_C_Sharp", "{0E589B36-99C3-4596-971C-23960866C34F}"
 EndProject
@@ -195,6 +195,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Chtenie_massiva_chisel", "BasicProgramming2\06_LINQ\01_Chtenie_massiva_chisel\01_Chtenie_massiva_chisel.csproj", "{44FFC993-B5A9-4A59-A7DA-003E1BA8EA33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Chtenie_spiska_tochek", "BasicProgramming2\06_LINQ\02_Chtenie_spiska_tochek\02_Chtenie_spiska_tochek.csproj", "{D1689918-92FB-4B37-BCA9-AAAF26E81DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Objedinenie_kollekcij", "BasicProgramming2\06_LINQ\03_Objedinenie_kollekcij\03_Objedinenie_kollekcij.csproj", "{8EB5BFDD-C79D-43B9-941C-BBD39FEE8E82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -514,6 +516,10 @@ Global
 		{D1689918-92FB-4B37-BCA9-AAAF26E81DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1689918-92FB-4B37-BCA9-AAAF26E81DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1689918-92FB-4B37-BCA9-AAAF26E81DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB5BFDD-C79D-43B9-941C-BBD39FEE8E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB5BFDD-C79D-43B9-941C-BBD39FEE8E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB5BFDD-C79D-43B9-941C-BBD39FEE8E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB5BFDD-C79D-43B9-941C-BBD39FEE8E82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -612,6 +618,7 @@ Global
 		{F6BB92A4-0F92-407D-8AD9-9CC0A6DD993E} = {48A51C29-A1B5-418E-A453-F7D1C70B8285}
 		{44FFC993-B5A9-4A59-A7DA-003E1BA8EA33} = {F6BB92A4-0F92-407D-8AD9-9CC0A6DD993E}
 		{D1689918-92FB-4B37-BCA9-AAAF26E81DA6} = {F6BB92A4-0F92-407D-8AD9-9CC0A6DD993E}
+		{8EB5BFDD-C79D-43B9-941C-BBD39FEE8E82} = {F6BB92A4-0F92-407D-8AD9-9CC0A6DD993E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
