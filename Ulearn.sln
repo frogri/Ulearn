@@ -202,6 +202,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Dekartovo_proizvedenie",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Sostavlenie_slovarya", "BasicProgramming2\06_LINQ\05_Sostavlenie_slovarya\05_Sostavlenie_slovarya.csproj", "{8668DBA7-7072-46B7-9813-F231B475FC0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Sortirovka_kortezhej", "BasicProgramming2\06_LINQ\06_Sortirovka_kortezhej\06_Sortirovka_kortezhej.csproj", "{8359A7E1-E187-48F2-B167-8112520308F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -532,6 +534,10 @@ Global
 		{8668DBA7-7072-46B7-9813-F231B475FC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8668DBA7-7072-46B7-9813-F231B475FC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8668DBA7-7072-46B7-9813-F231B475FC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8359A7E1-E187-48F2-B167-8112520308F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8359A7E1-E187-48F2-B167-8112520308F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8359A7E1-E187-48F2-B167-8112520308F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8359A7E1-E187-48F2-B167-8112520308F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -633,6 +639,7 @@ Global
 		{8EB5BFDD-C79D-43B9-941C-BBD39FEE8E82} = {F6BB92A4-0F92-407D-8AD9-9CC0A6DD993E}
 		{B7E4AE4B-815A-4138-8D00-324C1CA6F0B1} = {F6BB92A4-0F92-407D-8AD9-9CC0A6DD993E}
 		{8668DBA7-7072-46B7-9813-F231B475FC0D} = {F6BB92A4-0F92-407D-8AD9-9CC0A6DD993E}
+		{8359A7E1-E187-48F2-B167-8112520308F9} = {F6BB92A4-0F92-407D-8AD9-9CC0A6DD993E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5E2CE1D-8BAD-4127-80EF-2865654BF081}
