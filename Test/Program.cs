@@ -1,26 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Test
+﻿namespace Test
 {
-    internal class Program
+    public class Program
     {
-        static IEnumerable<int> GetSequence()
+        public static void Main(string[] args)
         {
-            for (var i = 0; i < 2; ++i)
-            {
-                Console.WriteLine("s");
-                yield return i;
-            }
-        }
-
-        static void Main(string[] args)
-        {
-            foreach (var element in GetSequence().ToList().Take(1))
-                Console.WriteLine("f");
-
-            Console.ReadKey();
         }
     }
 }
